@@ -5,7 +5,7 @@ import { Emotion, emotionState } from "./states/EmotionState";
 import { useRecoilState } from "recoil";
 import EmoticonOne from "./components/emoticon_1/EmotionOne";
 import EmoticonTwo from "./components/emoticon_2/EmotionTwo";
-import EmoticonThree from "./components/emoticon_2/EmotionTwo";
+import EmoticonThree from "./components/emoticon_3/EmotionThree";
 import Home from "./components/Home";
 
 export type BackgroundColor = "#282c34" | "blue" | "cyan" | "turquise";

@@ -4,32 +4,11 @@ import "./EmoticonOne.css";
 import { useRecoilState } from "recoil";
 import { partyItemsState } from "../../states/PartyItemState";
 
-export const initialAboutPanelState = {
-  size: {
-    width: 1000,
-    height: 600,
-  },
-  position: {
-    x: 0,
-    y: 0,
-  },
-  isVisible: true,
-  isSnapped: true,
-  zIndex: 1,
-  gridPosition: 0,
-  centered: true,
-};
-
 export type EmoticonOne = {
-  /** The formatted version string for the currently running application ("0.2.0"). */
   firstName: string;
-  /** The changelog of the application as raw markdown text. */
   lastName: string;
 };
 
-/**
- * A reusable panel which displays a text about the current app, its version and the changelog.
- */
 export default function EmoticonOne({
   firstName,
   lastName,
