@@ -3,7 +3,7 @@ import Table from "./Table";
 import "./EmoticonThree.css";
 import { useRecoilState } from "recoil";
 import { partyItemsState } from "../../states/PartyItemState";
-
+import * as React from 'react';
 export type EmoticonOne = {
   firstName: string;
   lastName: string;

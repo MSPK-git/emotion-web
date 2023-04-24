@@ -1,4 +1,4 @@
-import { ReactElement } from "react";
+import React,{ ReactElement } from "react";
 import "./Table.css";
 import { PartyItem } from "../../states/PartyItemState";
 
