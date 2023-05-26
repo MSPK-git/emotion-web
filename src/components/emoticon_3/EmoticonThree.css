@@ -24,12 +24,75 @@ input[type="submit"]:hover {
   background-color: #45a049;
 }
 .button-one {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button-one[disabled] {
+  background-color: red;
+  opacity: 0.2;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: not-allowed;
+}
+
+@keyframes fadeInOutAnimation {
+  0% {
+    opacity: 0;
   }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fadeInOut {
+  cursor: pointer;
+  animation: fadeInOutAnimation 1.5s infinite;
+  animation-direction: alternate-reverse;
+  animation-timing-function: ease-in-out;
+}
+.fastFadeInOut {
+  animation: fadeInOutAnimation 0.5s infinite;
+  animation-direction: alternate-reverse;
+  animation-timing-function: ease-in-out;
+}
+.fadeIn {
+  opacity: 0;
+  cursor: pointer;
+  transition: 0.25s all ease-in-out;
+}
+.borderTest {
+  border: solid 0px red;
+}
+@keyframes slide {
+  0% { left: 5px; }
+  70% { left: -25px; }
+  100% { left: -25px; top: 10px; }
+}
+blink {
+  animation: blinker 0.6s linear infinite;
+  color: red
+ }
+ @keyframes blink {  
+  50% { opacity: 0; }
+ }
+@keyframes blinker {  
+  50% { border: solid 3px red; }
+ }
+ .blink {
+  animation: blinker 0.6s linear infinite;
+  color: red
+ }
+ .blinkOpacity {
+  animation: blink 0.6s linear infinite;
+ }
