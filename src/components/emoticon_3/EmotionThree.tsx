@@ -121,7 +121,7 @@ export default function EmoticonThree({}: EmoticonOne): ReactElement {
                 <img
                   ref={ref}
                   src="./fear-ex.jpg"
-                  className={inView ? "fadeIn" : "borderTest"}
+                  className={inView ? "fadeIn" : ""}
                   alt="background"
                   style={{
                     opacity: inView ? 1 : 0,
@@ -167,7 +167,7 @@ export default function EmoticonThree({}: EmoticonOne): ReactElement {
                     >
                       Name:
                       <input
-                        className={timeEnded && !inputName ? "blink" : ""}
+                        className={timeEnded && !inputName ? "blink input3" : "input3"}
                         type="text"
                         value={inputName}
                         onChange={(e) => setInputName(e.target.value)}
@@ -184,7 +184,7 @@ export default function EmoticonThree({}: EmoticonOne): ReactElement {
                   </label>
                   <div style={{ height: "100px", width: "400px" }}>
                     <input
-                      className={timeEnded && !inputItem ? "blink" : ""}
+                      className={timeEnded && !inputItem ? "blink input3" : "input3"}
                       id="input2"
                       type="text"
                       value={inputItem}
@@ -193,7 +193,7 @@ export default function EmoticonThree({}: EmoticonOne): ReactElement {
                     />
                     {badItem && (
                       <div style={{ color: "red" }}>
-                        {badItem}? Ekelhaft! Bring etwas anderes mit!
+                        {badItem}? Ekelhaft! Bringe etwas anderes mit!
                       </div>
                     )}
                   </div>
