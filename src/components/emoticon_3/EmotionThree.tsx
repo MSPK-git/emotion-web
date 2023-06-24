@@ -4,7 +4,6 @@ import "./EmoticonThree.css";
 import { useRecoilState } from "recoil";
 import * as React from "react";
 import Timer from "./elements/Timer";
-import { useInView } from "react-intersection-observer";
 import { emoThreePartyItemsState } from "../../states/EmoThreePartiyItemState";
 export type EmoticonOne = {
   firstName: string;
@@ -19,10 +18,6 @@ export default function EmoticonThree({}: EmoticonOne): ReactElement {
   const [textChange, setTextChange] = useState(0);
   const [btnPressAmount, setBtnPressAmount] = useState(0);
   const [badItem, setBadItem] = useState("");
-
-  const [ref, inView] = useInView({
-    triggerOnce: true, // Change this to false if you want the animation to trigger again whenever it comes in view
-  });
 
   const overlayStyle = {
     position: "absolute",
@@ -119,12 +114,11 @@ export default function EmoticonThree({}: EmoticonOne): ReactElement {
                 }}
               >
                 <img
-                  ref={ref}
                   src="./fear-ex.jpg"
-                  className={inView ? "fadeIn" : ""}
+                  className={"fadeIn"}
                   alt="background"
                   style={{
-                    opacity: inView ? 1 : 0,
+                    opacity:  1,
                     transition: "opacity 2000ms",
                     width: "100%",
                   }}
@@ -146,7 +140,7 @@ export default function EmoticonThree({}: EmoticonOne): ReactElement {
               <div
                 style={{ alignSelf: "center" }}
                 className={`blinkOpacity ${
-                  inView ? "fastFadeInOut" : "borderTest"
+                  "fastFadeInOut"
                 }`}
               >
                 {textChange < 1 && <Timer endOfTime={endOfTime}></Timer>}
