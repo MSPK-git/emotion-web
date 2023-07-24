@@ -29,31 +29,39 @@ export default function EmoticonOne({
         }}
       >
         <div style={{ padding: "70px" }}>
-          <h1>
+          <h1 className="emo1_h1">
             Willkommen, {firstName} {lastName} was bringst du zur Grillparty
             mit?
           </h1>
-          <form>
-            <label>
+          <p className="emo1_p">
+            Schön, dass du dabei bist. Bitte trage deinen Namen ein und teile uns mit, was du zur Grillparty mitbringst. <br/>
+            In der Tabelle kannst du sehen, was die anderen Teilnehmer so mitbringen. Es macht jedoch nichts, wenn etwas mehrfach vorhanden ist. <br/>
+            Lass dir etwas Zeit und überlege in Ruhe, was du mitbringen möchtest.
+          </p>
+          
+          <form className="form1">
+            <label className="label1">
               Name:
               <input
                 type="text"
                 value={inputName}
                 onChange={(e) => setInputName(e.target.value)}
                 name="name"
+                className="input1"
               />
             </label>
-            <label>
+            <label className="label1">
               Ich bringe mit...
               <input
                 type="text"
                 value={inputItem}
                 onChange={(e) => setInputItem(e.target.value)}
                 name="item"
+                className="input1"
               />
             </label>
             <button
-              className="button-one"
+              className="button1"
               onClick={() => {
                 if (inputItem && inputName) {
                   setPartyItems((prev) => [
@@ -66,7 +74,8 @@ export default function EmoticonOne({
               Speichern
             </button>
           </form>
-          <div className="table" style={{ display: "flex" }}>
+
+          <div className="table1" style={{ display: "flex" }}>
             <Table items={partyItems}></Table>
           </div>
         </div>

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,100;1,200&family=Nanum+Myeongjo:wght@400;700;800&display=swap');
 input[type="text"],
 select {
   width: 100%;
@@ -23,13 +24,61 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #45a049;
 }
-.button-one {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
+.button1 {
+  background-color: #6D9967; /* Green */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  margin-top: .3em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.button1:hover{
+  background-color: #4CAF50;
+  
+}
+
+.emo1_h1 {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 2.8rem;
+  color: darkslategrey;
+}
+.emo1_p {
+  font-family: 'Montserrat', sans-serif;
+  width: 53%;
+  text-align: justify;
+  font-size: 1rem;
+  margin: 2em;
+  color: darkslategrey;
+  line-height: 150%;
+}
+
+.form1{
+  width: 60%;
+  margin-top: 3em;
+  color: darkslategrey;
+  /*border: 1px dotted darkslategrey;
+  border-radius: 20px;
+  padding: 1.5em;*/
+}
+
+.input1{
+  opacity: .9;
+}
+
+.table1{
+  opacity: .9;
+  width: 60%;
+  margin-top: 3em;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+.label1{
+  font-family: 'Montserrat', sans-serif;
+}
