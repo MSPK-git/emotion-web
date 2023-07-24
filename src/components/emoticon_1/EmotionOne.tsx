@@ -25,7 +25,7 @@ export default function EmoticonOne({
           padding: "2px",
           width: "100%",
           height: "1500px",
-          backgroundColor: "lightblue",
+          backgroundColor: "#B8E6B1",
         }}
       >
         <div style={{ padding: "70px" }}>

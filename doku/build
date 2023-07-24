@@ -1,0 +1,17 @@
+#!/bin/bash
+
+WORK=dokumentation
+
+for i in 1 2
+do
+        biber $WORK  > logfile
+        pdflatex -synctex=1 -interaction=nonstopmode --shell-escape  $WORK.tex  >> logfile
+done 
+
+if [ "$(uname)" = "Linux" ]
+then
+        evince $WORK.pdf
+elif  [ "$(uname)" = "Darwin" ]
+then
+        open $WORK.pdf
+fi
