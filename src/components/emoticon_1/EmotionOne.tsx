@@ -30,12 +30,12 @@ export default function EmoticonOne({
       >
         <div style={{ padding: "70px" }}>
           <h1 className="emo1_h1">
-            Willkommen, {firstName} {lastName} was bringst du zur Grillparty
+            Willkommen, {firstName} {lastName} <br/>was bringst du zur Grillparty
             mit?
           </h1>
           <p className="emo1_p">
             Schön, dass du dabei bist. Bitte trage deinen Namen ein und teile uns mit, was du zur Grillparty mitbringst. <br/>
-            In der Tabelle kannst du sehen, was die anderen Teilnehmer so mitbringen. Es macht jedoch nichts, wenn etwas mehrfach vorhanden ist. <br/>
+            In der Tabelle kannst du sehen, was die anderen Teilnehmer bereits mitbringen werden. Es macht jedoch nichts, wenn etwas mehrfach vorhanden ist. <br/>
             Lass dir etwas Zeit und überlege in Ruhe, was du mitbringen möchtest.
           </p>
           
