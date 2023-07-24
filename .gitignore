@@ -21,3 +21,15 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+# nicht-benötigter dokukram
+doku/dokumentation.aux
+doku/dokumentation.bbl
+doku/dokumentation.bcf
+doku/dokumentation.blg
+doku/dokumentation.log
+doku/dokumentation.run.xml
+doku/dokumentation.synctex.gz
+doku/dokumentation.toc
+doku/logfile
