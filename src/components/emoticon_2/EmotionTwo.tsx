@@ -38,6 +38,8 @@ export default function EmoticonTwo({
           /> */}
       <div
         style={{
+          display: "flex",
+          justifyContent: "center",
           backgroundImage: `url('/nostalgia.jpg')`,
           backgroundRepeat: 'no-repeat',
           padding: "2px",
@@ -46,7 +48,7 @@ export default function EmoticonTwo({
         }}
       >
         <div style={{ padding: "70px" }}>
-          <h1>
+          <h1 className="heading-emotion-two">
             Willkommen, {firstName} {lastName} In welche Zeit möchtest du zurückversetzt werden?
           </h1>
           <form>
@@ -60,7 +62,7 @@ export default function EmoticonTwo({
               <p>Sie haben ausgewählt: {videoId}</p>
             </div>
           </form>
-          {videoId !== "" && <div className="youtube-video-container">
+          {videoId !== "" && <div className="youtube-video-container" >
             <iframe className="videoNostalgie"
               width="560"
               height="315"

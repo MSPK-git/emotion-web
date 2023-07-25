@@ -1,3 +1,7 @@
+.heading-emotion-two {
+  color: antiquewhite;
+}
+
 input[type="text"],
 select {
   width: 100%;
@@ -33,3 +37,9 @@ input[type="submit"]:hover {
     display: inline-block;
     font-size: 16px;
   }
+.youtube-video-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 12px;
+
+}
