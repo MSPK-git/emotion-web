@@ -24,6 +24,7 @@ export default function EmoticonTwo({
   // console.log(videoUrl);
   const handleChange = (event: { target: { value: React.SetStateAction<string>; }; }) => {
     setVideoId(event.target.value);
+    
   };
   return (
     <>
@@ -38,8 +39,6 @@ export default function EmoticonTwo({
           /> */}
       <div
         style={{
-          display: "flex",
-          justifyContent: "center",
           backgroundImage: `url('/nostalgia.jpg')`,
           backgroundRepeat: 'no-repeat',
           padding: "2px",
@@ -55,6 +54,7 @@ export default function EmoticonTwo({
             <div>
               <select value={videoId} onChange={handleChange}>
                 <option value="">Keine Zeit ausgewählt</option>
+                <option value="fNFzfwLM72c">70er</option>
                 <option value="Qt2mbGP6vFI">80er</option>
                 <option value="4fndeDfaWCg">90er</option>
                 <option value="LOZuxwVk7TU">2000er</option>
@@ -62,10 +62,16 @@ export default function EmoticonTwo({
               <p>Sie haben ausgewählt: {videoId}</p>
             </div>
           </form>
+          <div className="tv"
+            style={{
+              backgroundImage: `url('/oldTv.png')`,
+          backgroundRepeat: 'no-repeat',
+            }}>
+          </div>
           {videoId !== "" && <div className="youtube-video-container" >
             <iframe className="videoNostalgie"
-              width="560"
-              height="315"
+              width="1080px"
+              height="720px"
               src={`https://www.youtube.com/embed/${videoId}`}
               title="YouTube video player"
               // frameborder="0"

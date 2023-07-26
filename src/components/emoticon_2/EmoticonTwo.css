@@ -27,19 +27,31 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #45a049;
 }
+
 .button-one {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.tv {
+  position: relative;
+}
+
+.videoNostalgie {
+  border-radius: 12px;
+  border: none;
+}
+
 .youtube-video-container {
   display: flex;
   justify-content: center;
-  border-radius: 12px;
+  border-radius: 12px !important;
 
 }
