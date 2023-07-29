@@ -37,7 +37,7 @@ export default function EmoticonTwo({
             width: "100%",
           }}
           /> */}
-      <div
+      <div className="bg"
         style={{
           backgroundImage: `url('/nostalgia.jpg')`,
           backgroundRepeat: 'no-repeat',
@@ -62,12 +62,8 @@ export default function EmoticonTwo({
               <p>Sie haben ausgewählt: {videoId}</p>
             </div>
           </form>
-          <div className="tv"
-            style={{
-              backgroundImage: `url('/oldTv.png')`,
-          backgroundRepeat: 'no-repeat',
-            }}>
-          </div>
+          <div className="outer">
+          <img className="tv" id="image" src="/oldTv.png" alt="Image Description" />
           {videoId !== "" && <div className="youtube-video-container" >
             <iframe className="videoNostalgie"
               width="1080px"
@@ -77,8 +73,9 @@ export default function EmoticonTwo({
               // frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               // allowfullscreen
-            ></iframe>
+              ></iframe>
           </div>}
+              </div>
           
           <div className="table" style={{ display: "flex" }}>
             {/* <Table items={partyItems}></Table> */}

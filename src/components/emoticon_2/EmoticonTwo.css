@@ -40,16 +40,37 @@ input[type="submit"]:hover {
   font-size: 16px;
 }
 
+.outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .tv {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Add this property to center vertically */
+  width: 50%;
+  z-index: 5;
 }
+
 
 .videoNostalgie {
   border-radius: 12px;
   border: none;
+  width: 520px;
+  height: 600px;
 }
 
+/*  width: 616px;
+    margin-top: 363px;
+    height: 453px;
+    margin-left: 76px;
+}*/
+
 .youtube-video-container {
+  position: absolute;
   display: flex;
   justify-content: center;
   border-radius: 12px !important;
