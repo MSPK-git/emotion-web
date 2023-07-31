@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,100;1,200&family=Nanum+Myeongjo:wght@400;700;800&display=swap');
 input[type="text"],
 select {
   width: 100%;
@@ -21,15 +22,74 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: #E6BB15; /* Yellow E6BB15 */
 }
-.button-one {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
+.button1 {
+  background-color: #45a049;  /* green 45a049 */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  margin-top: .3em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.button1:hover{
+  background-color: #E6BB15;
+  
+}
+
+.emo1_h1 {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 2.8rem;
+  color: darkslategrey;
+}
+.emo1_p {
+  font-family: 'Montserrat', sans-serif;
+  width: 53%;
+  text-align: justify;
+  font-size: 1rem;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0em;
+  padding: 1em;
+  color: darkslategrey;
+  line-height: 150%;
+  border-left: darkslategrey 1px solid;
+}
+
+.form1{
+  width: 60%;
+  margin-top: 3em;
+  color: darkslategrey;
+  /*border: 1px dotted darkslategrey;
+  border-radius: 20px;
+  padding: 1.5em;*/
+}
+
+.input1{
+  opacity: .8;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.input1:focus{
+  opacity: .9;
+  font-family: 'Montserrat', sans-serif;
+  color: darkslategrey;
+}
+
+.table1{
+  opacity: .9;
+  width: 60%;
+  margin-top: 3em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.label1{
+  font-family: 'Montserrat', sans-serif;
+}
+

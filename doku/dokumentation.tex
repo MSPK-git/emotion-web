@@ -1,0 +1,142 @@
+ %% ---------- Vorspann
+\documentclass[11pt,a4paper,twoside]{report} %article + section für hausarbeit,  report + chapter für "buch-like"
+\raggedbottom
+ %% ---------- Typographie
+\usepackage[utf8]{inputenc}
+ %% ---------- Packages und Zitierstil
+\usepackage{lmodern}
+\usepackage[ngerman]{babel}
+ % bibliography
+ % \usepackage[style=numeric,sorting=none]{biblatex} %,citestyle=authoryear
+\usepackage[style=ieee,sorting=none]{biblatex}
+\addbibresource{lit.bib}
+\ExecuteBibliographyOptions{dashed=false}
+\usepackage{subfiles}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{scrlayer-scrpage}
+\pagestyle{scrheadings}
+\clearpairofpagestyles
+\usepackage[a4paper,top=3cm,bottom=4cm,left=3cm,right=3cm,head=22pt]{geometry}
+\usepackage{minted} % you should invoke latex with -shell-escape flag
+\usepackage{listings}
+\renewcommand{\lstlistingname}{Quellcode}
+\renewcommand{\lstlistlistingname}{Quellcode}
+\usepackage{csquotes}
+\usepackage[md]{titlesec}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{fancyhdr}
+\usepackage{tocbibind}
+ % https://tex.stackexchange.com/questions/70610/how-to-customize-the-page-header-and-the-page-number-of-classicthesis
+ % anhang mittels minted
+ % \subsection{fill_database.py} 
+ % \inputminted[linenos,tabsize=2,breaklines]{python}{Programmierung/fill_database.py}
+\usepackage[font=small,labelfont=it]{caption}
+\usepackage[hidelinks]{hyperref}
+% --- Font Style
+\usepackage[cmintegrals,cmbraces]{newtxmath}
+\usepackage{ebgaramond-maths}
+\usepackage[T1]{fontenc}
+ % \usepackage[figure]{hypcap}
+ % \pagestyle{fancy}
+ % ---------- Header und Footer 
+ % ohead should contain rightmark, which should be the current section - todo!! look up fancyhdr and renewcommand
+ % for acronyms see: https://youtu.be/331YxgOJUGw?t=1541
+\ohead{\rightmark}
+\ofoot{\pagemark}
+\def\arraystretch{1.5}%
+%\discretionary{Teil1}{Teil2}{Ungetrennt}
+
+
+\definecolor{mytextgrey}{RGB}{33,33,33}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\setlength{\footheight}{22pt}
+
+\title{Projektarbeit}
+\author{Florian Schönsee}
+\date{\today}
+ %% ---------- Titelseite
+\begin{document}
+\color{mytextgrey}
+\begin{titlepage}
+     % \centering   
+     \hfill
+     \includegraphics[width=0.4\textwidth]{bilder/beide-logos.png}
+     \par\vspace{7cm}
+     \raggedright
+     \vspace{.5cm}
+         {\scshape\Large Projektdokumentation \par}
+         \vspace{1cm}
+     {\LARGE \bfseries Erstellen einer Website um die drei Emotionen\\“Gelassenheit, Nostalgie, Wut” anzusprechen. \par}   
+     \vspace{2cm}
+     {\Large \textsc{Maria Pekar, 92 88 70 \\Scott Albers, 29 62 96\\Florian Schönsee, 94 04 85}\par}
+     \vspace{0.5cm}
+     \today
+     \vfill
+         {\small Betreuung \par}
+         \textsc{Prof. Dr. Friedhelm Mündemann}
+ \end{titlepage}
+ 
+
+ % Vorspann, Deckblatt
+\onehalfspacing
+\pagenumbering{Roman}
+\tableofcontents
+%\newpage\null\thispagestyle{empty}\newpage
+%\pagebreak
+%\setcounter{page}{1}
+%\addcontentsline{toc}{section}{Abkürzungsverzeichnis}
+% \subfile{00Abkuerzungsverzeichnis}
+ % empty page
+
+%\newpage\null\thispagestyle{empty}\newpage
+\pagebreak
+\pagenumbering{Roman}
+\addcontentsline{toc}{section}{Verfassererklärung}
+\subfile{00_Verfassererklaerung}
+
+
+
+\pagebreak
+
+\pagenumbering{arabic}
+%\setcounter{page}{5}
+\subfile{01_Einleitung}
+\pagebreak
+\subfile{02_Potenzial}
+\pagebreak
+\subfile{03_Grundlagen}
+\pagebreak
+\subfile{04_Verwendung}
+\pagebreak
+\subfile{05_Beziehung_Konflikt}
+\pagebreak
+\subfile{06_Zusammenfassung}
+\pagebreak
+\subfile{99_Projektabschnitte}
+\pagenumbering{Roman}
+\setcounter{page}{2}
+%\nocite{*}
+\addcontentsline{toc}{chapter}{Verzeichnisse}
+\addcontentsline{toc}{section}{\listfigurename}
+%\listoffigures
+\pagebreak
+\addcontentsline{toc}{section}{\listtablename}
+%\listoftables
+\pagebreak
+\addcontentsline{toc}{section}{Quellcodeverzeichnis}
+\renewcommand\listoflistingscaption{Quellcodeverzeichnis}
+\listoflistings % Now typeset the list
+\pagebreak
+\addcontentsline{toc}{section}{Literaturverzeichnis}
+\printbibliography
+\pagebreak
+\end{document}
