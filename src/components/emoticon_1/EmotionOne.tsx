@@ -30,7 +30,7 @@ export default function EmoticonOne({
       >
         <div style={{ padding: "70px" }}>
           <h1 className="emo1_h1">
-            Willkommen, {firstName} {lastName} <br/>was bringst du zur Grillparty
+            Willkommen, <br/>was bringst du zur Grillparty
             mit?
           </h1>
           <p className="emo1_p">
