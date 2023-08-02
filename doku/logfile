@@ -599,7 +599,7 @@ i\T1/EBGaramond-OsF/regular/n/10.95 : []$\T1/lmtt/m/n/10.95 10 . 1201 / 9780203
 608173$[]\T1/EBGaramond-OsF/regular/n/10.95 . Adres-se: []$\T1/lmtt/m/n/10.95 h
 ttps : / / doi . org / 10 . 1201 / 9780203608173$[]\T1/EBGaramond-OsF/regular/n
 /10.95 . 
-[3] [4] (./dokumentation.aux)
+[3] [4] (./dokumentation.lof) [5] (./dokumentation.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -614,6 +614,6 @@ xmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2021/texmf-dist/fonts
 t/fonts/type1/public/ebgaramond/EBGaramond-Italic.pfb></usr/local/texlive/2021/
 texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Regular.pfb></usr/local/tex
 live/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on dokumentation.pdf (27 pages, 5024960 bytes).
+Output written on dokumentation.pdf (28 pages, 5027126 bytes).
 SyncTeX written on dokumentation.synctex.gz.
 Transcript written on dokumentation.log.
