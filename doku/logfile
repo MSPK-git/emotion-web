@@ -1,7 +1,7 @@
 INFO - This is Biber 2.16
 INFO - Logfile is 'dokumentation.blg'
 INFO - Reading 'dokumentation.bcf'
-INFO - Found 15 citekeys in bib section 0
+INFO - Found 16 citekeys in bib section 0
 INFO - Processing section 0
 INFO - Looking for bibtex format file 'lit.bib' for section 0
 INFO - LaTeX decoding ...
@@ -13,8 +13,8 @@ WARN - legacy month field 'August' in entry 'dom_bsp' is not an integer - this w
 WARN - legacy month field 'August' in entry 'unt_bsp' is not an integer - this will probably not sort properly.
 WARN - legacy month field 'May' in entry 'Schubert2016' is not an integer - this will probably not sort properly.
 WARN - I didn't find a database entry for 'elliot2004' (section 0)
-INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
 INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
 INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
 INFO - No sort tailoring available for locale 'de-DE'
 INFO - Writing 'dokumentation.bbl' with encoding 'UTF-8'
@@ -319,7 +319,7 @@ mf-var/fonts/map/pdftex/updmap/pdftex.map} <./bilder/beide-logos.png>]
 (./dokumentation.toc
 (/usr/local/texlive/2021/texmf-dist/tex/latex/newtx/untxmia.fd)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/newtx/untxsym.fd)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/newtx/untxsyc.fd)) [1]
+(/usr/local/texlive/2021/texmf-dist/tex/latex/newtx/untxsyc.fd) [1]) [2]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 103.
@@ -475,24 +475,94 @@ Type  H <return>  for immediate help.
 l.36 
      
 [12 <./bilder/goethe.jpg>] [13 <./bilder/farbkreis.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
+Underfull \hbox (badness 10000) in paragraph at lines 45--47
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--55
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 
+     
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--59
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+[14 <./bilder/motivationsquadranten.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
-) [15] (./06_Zusammenfassung.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+) [15] (./06_Einfluss.tex
+Kapitel 6.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+[16]
+Overfull \hbox (0.49278pt too wide) in paragraph at lines 21--23
+\T1/EBGaramond-OsF/regular/n/10.95 her-vor-ge-ru-fe-nen Hör-wahr-neh-mung be-sc
+häf-tigt, heiÿt Psy-choakus-tik. Da das Ge-hör evo-lu-tio-när als Alar-
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--23
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 
+     
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+[17 <./bilder/fraunhofer_akustik.png>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 
+     
+) [18 <./bilder/dom-unt-bild.png>] (./07_Umsetzung.tex)
 
 Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                At least 32.99352pt needed,
@@ -502,22 +572,28 @@ Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                e.g., setting geometry's option
 (scrlayer-scrpage)                `head=32.99352pt'.
 (scrlayer-scrpage)                I'll also decrease \topmargin on input line 1
-24.
+26.
 
 
 Overfull \vbox (10.99352pt too high) has occurred while \output is active
-[16] (./99_Projektabschnitte.tex)
+[19] (./08_Zusammenfassung.tex) [20] (./99_Projektabschnitte.tex)
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 129.
+(hyperref)                be the same. Added a new anchor on input line 133.
 
-[2] (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmtt.fd)
-Overfull \hbox (13.20367pt too wide) in paragraph at lines 141--141
+pdfTeX warning (ext4): destination with the same identifier (name{page.II}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.136 \addcontentsline
+                      {toc}{section}{\listtablename} [2]
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmtt.fd)
+Overfull \hbox (13.20367pt too wide) in paragraph at lines 145--145
 []\T1/EBGaramond-OsF/regular/n/10.95 T. van Gorp, \T1/EBGaramond-OsF/regular/it
 /10.95 Emo-tio-nal de-sign with A.C.T. - part 1\T1/EBGaramond-OsF/regular/n/10.
 95 , Ju-ni 2013. Adres-se: []$\T1/lmtt/m/n/10.95 https : / / boxesandarrows .
 
-Overfull \hbox (21.56761pt too wide) in paragraph at lines 141--141
+Overfull \hbox (21.56761pt too wide) in paragraph at lines 145--145
 \T1/EBGaramond-OsF/regular/n/10.95 2003. \T1/EBGaramond-OsF/regular/sc/10.95 do
 i\T1/EBGaramond-OsF/regular/n/10.95 : []$\T1/lmtt/m/n/10.95 10 . 1201 / 9780203
 608173$[]\T1/EBGaramond-OsF/regular/n/10.95 . Adres-se: []$\T1/lmtt/m/n/10.95 h
@@ -538,6 +614,6 @@ xmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2021/texmf-dist/fonts
 t/fonts/type1/public/ebgaramond/EBGaramond-Italic.pfb></usr/local/texlive/2021/
 texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Regular.pfb></usr/local/tex
 live/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on dokumentation.pdf (22 pages, 4577854 bytes).
+Output written on dokumentation.pdf (27 pages, 5024960 bytes).
 SyncTeX written on dokumentation.synctex.gz.
 Transcript written on dokumentation.log.
