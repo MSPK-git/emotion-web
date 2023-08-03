@@ -48,16 +48,16 @@ export default function EmoticonTwo({
       >
         <div style={{ padding: "70px" }}>
           <h1 className="heading-emotion-two">
-            Willkommen, {firstName} {lastName} In welche Zeit möchtest du zurückversetzt werden?
+            Willkommen, In welche Zeit möchtest du zurückversetzt werden?
           </h1>
           <form>
             <div>
               <select value={videoId} onChange={handleChange}>
                 <option value="">Keine Zeit ausgewählt</option>
-                <option value="fNFzfwLM72c">70er</option>
-                <option value="Qt2mbGP6vFI">80er</option>
-                <option value="4fndeDfaWCg">90er</option>
-                <option value="LOZuxwVk7TU">2000er</option>
+                <option value="fNFzfwLM72c" className="70er">70er</option>
+                <option value="Qt2mbGP6vFI" className="80er">80er</option>
+                <option value="4fndeDfaWCg" className="90er">90er</option>
+                <option value="LOZuxwVk7TU" className="2000er">2000er</option>
               </select>
               <p>Sie haben ausgewählt: {videoId}</p>
             </div>

@@ -1,4 +1,5 @@
-.heading-emotion-two {
+.heading-emotion-two,
+p {
   color: antiquewhite;
 }
 
@@ -41,6 +42,7 @@ input[type="submit"]:hover {
 }
 
 .outer {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,14 +55,18 @@ input[type="submit"]:hover {
   align-items: center; /* Add this property to center vertically */
   width: 50%;
   z-index: 5;
+  pointer-events: none;
 }
 
 
 .videoNostalgie {
   border-radius: 12px;
-  border: none;
-  width: 520px;
-  height: 600px;
+    border: none;
+    width: 48%;
+    height: 165px;
+    scale: 2.1;
+    margin-bottom: 49px;
+    margin-right: 127px;
 }
 
 /*  width: 616px;
