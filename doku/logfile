@@ -1,7 +1,7 @@
 INFO - This is Biber 2.16
 INFO - Logfile is 'dokumentation.blg'
 INFO - Reading 'dokumentation.bcf'
-INFO - Found 16 citekeys in bib section 0
+INFO - Found 17 citekeys in bib section 0
 INFO - Processing section 0
 INFO - Looking for bibtex format file 'lit.bib' for section 0
 INFO - LaTeX decoding ...
@@ -13,13 +13,14 @@ WARN - legacy month field 'August' in entry 'dom_bsp' is not an integer - this w
 WARN - legacy month field 'August' in entry 'unt_bsp' is not an integer - this will probably not sort properly.
 WARN - legacy month field 'May' in entry 'Schubert2016' is not an integer - this will probably not sort properly.
 WARN - I didn't find a database entry for 'elliot2004' (section 0)
-INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+WARN - I didn't find a database entry for 'Cibelli2016' (section 0)
 INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
 INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
 INFO - No sort tailoring available for locale 'de-DE'
 INFO - Writing 'dokumentation.bbl' with encoding 'UTF-8'
 INFO - Output to dokumentation.bbl
-INFO - WARNINGS: 7
+INFO - WARNINGS: 8
 This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex)
  \write18 enabled.
 entering extended mode
@@ -301,6 +302,13 @@ tex)))) (./dokumentation.bbl
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
+(biblatex)                Cibelli2016
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
 (biblatex)                elliot2004
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
@@ -320,19 +328,7 @@ mf-var/fonts/map/pdftex/updmap/pdftex.map} <./bilder/beide-logos.png>]
 (/usr/local/texlive/2021/texmf-dist/tex/latex/newtx/untxmia.fd)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/newtx/untxsym.fd)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/newtx/untxsyc.fd) [1]) [2]
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 103.
-
-(./00_Verfassererklaerung.tex
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
-
-)pdfTeX warning (ext4): destination with the same identifier (name{page.I}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.109 
-       [1] (./01_Einleitung.tex
+(./01_Einleitung.tex
 Kapitel 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
@@ -562,7 +558,44 @@ Type  H <return>  for immediate help.
                                                   
 l.62 
      
-) [18 <./bilder/dom-unt-bild.png>] (./07_Umsetzung.tex)
+) [18 <./bilder/dom-unt-bild.png>] (./07_Umsetzung.tex
+Kapitel 7.
+
+Overfull \hbox (3.71959pt too wide) in paragraph at lines 4--4
+|\T1/EBGaramond-OsF/regular/n/24.88 Umsetzung - be-wuss-tes An-spre-chen von Em
+o-
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--12
+
+
+Overfull \hbox (6.41759pt too wide) in paragraph at lines 13--13
+|[]\T1/EBGaramond-OsF/regular/n/14.4 Webseite - be-wuss-tes Ein-set-zen der Ele
+-men-te f�r die In-du-zie-rung von Nost-
+[19]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 
+     
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 
+     
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
+
 
 Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                At least 32.99352pt needed,
@@ -571,12 +604,98 @@ Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                processing, but you should do this yourself,
 (scrlayer-scrpage)                e.g., setting geometry's option
 (scrlayer-scrpage)                `head=32.99352pt'.
-(scrlayer-scrpage)                I'll also decrease \topmargin on input line 1
-26.
+(scrlayer-scrpage)                I'll also decrease \topmargin on input line 3
+9.
 
 
 Overfull \vbox (10.99352pt too high) has occurred while \output is active
-[19] (./08_Zusammenfassung.tex) [20] (./99_Projektabschnitte.tex)
+[20 <./bilder/contrast.png>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 
+     
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 
+     
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 
+     
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.80 
+     
+[21 <./bilder/name-bin-dabei.png> <./bilder/schrift-freie-plätze3.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.88 
+     
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+
+[22 <./bilder/schrift-freie-plätze1.png> <./bilder/rot-dabei.png> <./bilder/e
+kelhaft.png>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.99 
+     
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.106 
+      
+[23 <./bilder/na-endlich.png> <./bilder/angst1.png>]) [24 <./bilder/angst2.png>
+] (./08_Zusammenfassung.tex) [25] (./99_Projektabschnitte.tex)
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 133.
@@ -614,6 +733,6 @@ xmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2021/texmf-dist/fonts
 t/fonts/type1/public/ebgaramond/EBGaramond-Italic.pfb></usr/local/texlive/2021/
 texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Regular.pfb></usr/local/tex
 live/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on dokumentation.pdf (28 pages, 5027126 bytes).
+Output written on dokumentation.pdf (32 pages, 6693025 bytes).
 SyncTeX written on dokumentation.synctex.gz.
 Transcript written on dokumentation.log.
