@@ -14,8 +14,8 @@ WARN - legacy month field 'August' in entry 'unt_bsp' is not an integer - this w
 WARN - legacy month field 'May' in entry 'Schubert2016' is not an integer - this will probably not sort properly.
 WARN - I didn't find a database entry for 'elliot2004' (section 0)
 WARN - I didn't find a database entry for 'Cibelli2016' (section 0)
-INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
 INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
 INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
 INFO - No sort tailoring available for locale 'de-DE'
 INFO - Writing 'dokumentation.bbl' with encoding 'UTF-8'
@@ -364,16 +364,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--38
 (./03_Grundlagen.tex
 Kapitel 3.
 
-LaTeX Warning: Reference `fig4:affect' on page 6 undefined on input line 7.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 5--8
 
-Runaway argument?
-width=0.8\]{bilder/russell1.png} \caption {acht affekt Konzepte in kr\ETC.
-! Paragraph ended before \Gin@ii was complete.
-<to be read again> 
-                   \par 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
 l.15 
      
 
@@ -388,7 +390,7 @@ Type  H <return>  for immediate help.
                                                   
 l.24 
      
-) [6] (./04_Verwendung.tex [7 <./bilder/russell2.png>]
+) [6] (./04_Verwendung.tex [7 <./bilder/russell1.png> <./bilder/russell2.png>]
 Kapitel 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
@@ -718,11 +720,7 @@ i\T1/EBGaramond-OsF/regular/n/10.95 : []$\T1/lmtt/m/n/10.95 10 . 1201 / 9780203
 608173$[]\T1/EBGaramond-OsF/regular/n/10.95 . Adres-se: []$\T1/lmtt/m/n/10.95 h
 ttps : / / doi . org / 10 . 1201 / 9780203608173$[]\T1/EBGaramond-OsF/regular/n
 /10.95 . 
-[3] [4] (./dokumentation.lof) [5] (./dokumentation.aux)
-
-LaTeX Warning: There were undefined references.
-
- )
+[3] [4] (./dokumentation.lof) [5] (./dokumentation.aux) )
 (see the transcript file for additional information){/usr/local/texlive/2021/te
 xmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2021/texmf-dist/fonts
 /enc/dvips/ebgaramond/ebgm_ljow5q.enc}{/usr/local/texlive/2021/texmf-dist/fonts
@@ -733,6 +731,6 @@ xmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2021/texmf-dist/fonts
 t/fonts/type1/public/ebgaramond/EBGaramond-Italic.pfb></usr/local/texlive/2021/
 texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Regular.pfb></usr/local/tex
 live/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on dokumentation.pdf (32 pages, 6693025 bytes).
+Output written on dokumentation.pdf (32 pages, 6724488 bytes).
 SyncTeX written on dokumentation.synctex.gz.
 Transcript written on dokumentation.log.
