@@ -13,8 +13,8 @@ WARN - legacy month field 'August' in entry 'dom_bsp' is not an integer - this w
 WARN - legacy month field 'August' in entry 'unt_bsp' is not an integer - this will probably not sort properly.
 WARN - legacy month field 'May' in entry 'Schubert2016' is not an integer - this will probably not sort properly.
 WARN - I didn't find a database entry for 'elliot2004' (section 0)
-INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
 INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
 INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
 INFO - No sort tailoring available for locale 'de-DE'
 INFO - Writing 'dokumentation.bbl' with encoding 'UTF-8'
@@ -625,54 +625,6 @@ l.56
 
 Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
-[24 <./bilder/adobecolor.png>]
-Overfull \hbox (6.41759pt too wide) in paragraph at lines 61--61
-|[]\T1/EBGaramond-OsF/regular/n/14.4 Webseite - be-wuss-tes Ein-set-zen der Ele
--men-te f�r die In-du-zie-rung von Nost-
-[25]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.77 
-     
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.84 
-     
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--88
-
-[26 <./bilder/contrast.png> <./bilder/name-bin-dabei.png>]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.96 
-     
-
-Underfull \hbox (badness 10000) in paragraph at lines 98--100
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.108 
-      
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -683,7 +635,92 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.119 
+l.65 
+     
+
+LaTeX Warning: File `bilder/website-gelassen-hover.png' not found on input line
+ 68.
+
+
+! Package pdftex.def Error: File `bilder/website-gelassen-hover.png' not found:
+ using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 ...twidth]{bilder/website-gelassen-hover.png}
+                                                  
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmtt.fd)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 
+     
+[24 <./bilder/adobecolor.png>]
+Overfull \hbox (6.41759pt too wide) in paragraph at lines 75--75
+|[]\T1/EBGaramond-OsF/regular/n/14.4 Webseite - be-wuss-tes Ein-set-zen der Ele
+-men-te f�r die In-du-zie-rung von Nost-
+[25 <./bilder/website-gelassen.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.91 
+     
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.98 
+     
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--102
+
+[26]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.110 
+      
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--114
+
+[27 <./bilder/contrast.png> <./bilder/name-bin-dabei.png>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.122 
       
 
 ! LaTeX Error: There's no line here to end.
@@ -692,31 +729,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.129 
-      
-[27 <./bilder/schrift-freie-plätze3.png> <./bilder/schrift-freie-plätze1.pn
-g>]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.137 
-      
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
-
-[28 <./bilder/rot-dabei.png> <./bilder/ekelhaft.png> <./bilder/na-endlich.png>]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.148 
+l.133 
       
 
 ! LaTeX Error: There's no line here to end.
@@ -725,10 +738,43 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.155 
+l.143 
       
-[29 <./bilder/angst1.png> <./bilder/angst2.png>]) [30]
-(./08_Zusammenfassung.tex) [31] (./99_Projektabschnitte.tex)
+[28 <./bilder/schrift-freie-plätze3.png> <./bilder/schrift-freie-plätze1.pn
+g> <./bilder/rot-dabei.png>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.151 
+      
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
+
+[29 <./bilder/ekelhaft.png> <./bilder/na-endlich.png>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.162 
+      
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 
+      
+[30 <./bilder/angst1.png> <./bilder/angst2.png>]) [31]
+(./08_Zusammenfassung.tex) [32] (./99_Projektabschnitte.tex)
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 133.
@@ -739,7 +785,6 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.II}) has
                    \relax 
 l.136 \addcontentsline
                       {toc}{section}{\listtablename} [2]
-(/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmtt.fd)
 Overfull \hbox (13.20367pt too wide) in paragraph at lines 145--145
 []\T1/EBGaramond-OsF/regular/n/10.95 T. van Gorp, \T1/EBGaramond-OsF/regular/it
 /10.95 Emo-tio-nal de-sign with A.C.T. - part 1\T1/EBGaramond-OsF/regular/n/10.
@@ -751,7 +796,7 @@ i\T1/EBGaramond-OsF/regular/n/10.95 : []$\T1/lmtt/m/n/10.95 10 . 1201 / 9780203
 608173$[]\T1/EBGaramond-OsF/regular/n/10.95 . Adres-se: []$\T1/lmtt/m/n/10.95 h
 ttps : / / doi . org / 10 . 1201 / 9780203608173$[]\T1/EBGaramond-OsF/regular/n
 /10.95 . 
-[3] [4] (./dokumentation.lof) [5] (./dokumentation.aux) )
+[3] [4] (./dokumentation.lof [5]) [6] (./dokumentation.aux) )
 (see the transcript file for additional information){/usr/local/texlive/2021/te
 xmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2021/texmf-dist/fonts
 /enc/dvips/ebgaramond/ebgm_ljow5q.enc}{/usr/local/texlive/2021/texmf-dist/fonts
@@ -762,6 +807,6 @@ xmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2021/texmf-dist/fonts
 t/fonts/type1/public/ebgaramond/EBGaramond-Italic.pfb></usr/local/texlive/2021/
 texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Regular.pfb></usr/local/tex
 live/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on dokumentation.pdf (38 pages, 7296271 bytes).
+Output written on dokumentation.pdf (40 pages, 7422294 bytes).
 SyncTeX written on dokumentation.synctex.gz.
 Transcript written on dokumentation.log.
