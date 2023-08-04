@@ -22,8 +22,8 @@
 \usepackage[a4paper,top=3cm,bottom=4cm,left=3cm,right=3cm,head=22pt]{geometry}
 \usepackage{minted} % you should invoke latex with -shell-escape flag
 \usepackage{listings}
-\renewcommand{\lstlistingname}{Quellcode}
-\renewcommand{\lstlistlistingname}{Quellcode}
+%\renewcommand{\lstlistingname}{Quellcode}
+%\renewcommand{\lstlistlistingname}{Quellcode}
 \usepackage{csquotes}
 \usepackage[md]{titlesec}
 \usepackage{color}
@@ -98,10 +98,10 @@
  % empty page
 
 %\newpage\null\thispagestyle{empty}\newpage
-\pagebreak
-\pagenumbering{Roman}
-\addcontentsline{toc}{section}{Verfassererklärung}
-\subfile{00_Verfassererklaerung}
+%\pagebreak
+%\pagenumbering{Roman}
+%\addcontentsline{toc}{section}{Verfassererklärung}
+%\subfile{00_Verfassererklaerung}
 
 
 
@@ -119,7 +119,11 @@
 \pagebreak
 \subfile{05_Beziehung_Konflikt}
 \pagebreak
-\subfile{06_Zusammenfassung}
+\subfile{06_Einfluss}
+\pagebreak
+\subfile{07_Umsetzung}
+\pagebreak
+\subfile{08_Zusammenfassung}
 \pagebreak
 \subfile{99_Projektabschnitte}
 \pagenumbering{Roman}
@@ -132,11 +136,12 @@
 \addcontentsline{toc}{section}{\listtablename}
 %\listoftables
 \pagebreak
-\addcontentsline{toc}{section}{Quellcodeverzeichnis}
-\renewcommand\listoflistingscaption{Quellcodeverzeichnis}
-\listoflistings % Now typeset the list
+%\addcontentsline{toc}{section}{Quellcodeverzeichnis}
+%\renewcommand\listoflistingscaption{Quellcodeverzeichnis}
+%\listoflistings % Now typeset the list
 \pagebreak
 \addcontentsline{toc}{section}{Literaturverzeichnis}
 \printbibliography
 \pagebreak
+\listoffigures
 \end{document}

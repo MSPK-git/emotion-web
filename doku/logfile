@@ -1,19 +1,25 @@
 INFO - This is Biber 2.16
 INFO - Logfile is 'dokumentation.blg'
 INFO - Reading 'dokumentation.bcf'
-INFO - Found 2 citekeys in bib section 0
+INFO - Found 20 citekeys in bib section 0
 INFO - Processing section 0
 INFO - Looking for bibtex format file 'lit.bib' for section 0
 INFO - LaTeX decoding ...
 INFO - Found BibTeX data source 'lit.bib'
 WARN - legacy month field 'Jun' in entry 'vanGorp2013' is not an integer - this will probably not sort properly.
+WARN - legacy month field 'January' in entry 'medium_muz' is not an integer - this will probably not sort properly.
+WARN - legacy month field 'December' in entry 'ipadbox' is not an integer - this will probably not sort properly.
+WARN - legacy month field 'August' in entry 'dom_bsp' is not an integer - this will probably not sort properly.
+WARN - legacy month field 'August' in entry 'unt_bsp' is not an integer - this will probably not sort properly.
+WARN - legacy month field 'May' in entry 'Schubert2016' is not an integer - this will probably not sort properly.
+WARN - I didn't find a database entry for 'elliot2004' (section 0)
 INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
 INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
 INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
 INFO - No sort tailoring available for locale 'de-DE'
 INFO - Writing 'dokumentation.bbl' with encoding 'UTF-8'
 INFO - Output to dokumentation.bbl
-INFO - WARNINGS: 1
+INFO - WARNINGS: 7
 This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex)
  \write18 enabled.
 entering extended mode
@@ -291,8 +297,15 @@ ths.fd)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-
 01.sty
 (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.
-tex)))) (./dokumentation.bbl)
-(/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+tex)))) (./dokumentation.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                elliot2004
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+) (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 (/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
@@ -306,28 +319,256 @@ mf-var/fonts/map/pdftex/updmap/pdftex.map} <./bilder/beide-logos.png>]
 (./dokumentation.toc
 (/usr/local/texlive/2021/texmf-dist/tex/latex/newtx/untxmia.fd)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/newtx/untxsym.fd)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/newtx/untxsyc.fd)) [1]
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 103.
-
-(./00_Verfassererklaerung.tex
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
-
-)pdfTeX warning (ext4): destination with the same identifier (name{page.I}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.109 
-       [1] (./01_Einleitung.tex
+(/usr/local/texlive/2021/texmf-dist/tex/latex/newtx/untxsyc.fd) [1]) [2]
+(./01_Einleitung.tex
 Kapitel 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--9
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
 )pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.114 \subfile
-              {02_Potenzial} [1] (./02_Potenzial.tex) [2] (./03_Grundlagen.tex)
- [3] (./04_Verwendung.tex) [4] (./05_Beziehung_Konflikt.tex)
+              {02_Potenzial} [1] (./02_Potenzial.tex
+Kapitel 2.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/ebgaramond/TS1EBGaramond-OsF.fd)
+[2] [3 <./bilder/ipadbox.jpg>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 
+     
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+[4 <./bilder/refl-design.png> <./bilder/verh-bez-des.png>]) [5]
+(./03_Grundlagen.tex
+Kapitel 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--8
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 
+     
+[6]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 
+     
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--29
+
+[7 <./bilder/russell1.png> <./bilder/russell2.png>]) [8] [9]
+(./04_Verwendung.tex
+Kapitel 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+[10]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 
+     
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 
+     
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 \section
+             {Angst, Ãœberraschung, Wut}
+[11 <./bilder/sad-happy.png> <./bilder/dom.png>]) [12 <./bilder/unt.png>]
+(./05_Beziehung_Konflikt.tex
+Kapitel 5.
+
+Overfull \hbox (22.57272pt too wide) in paragraph at lines 4--4
+|\T1/EBGaramond-OsF/regular/n/24.88 Beziehung/Konflikt von De-sign, Mar-ke-ting
+ und
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 
+     
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+[14 <./bilder/goethe.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 
+     
+[15 <./bilder/farbkreis.png>] [16]
+Underfull \hbox (badness 10000) in paragraph at lines 45--47
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 
+     
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+[17 <./bilder/motivationsquadranten.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+) [18] (./06_Einfluss.tex
+Kapitel 6.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+[19]
+Overfull \hbox (0.49278pt too wide) in paragraph at lines 21--23
+\T1/EBGaramond-OsF/regular/n/10.95 her-vor-ge-ru-fe-nen Hör-wahr-neh-mung be-sc
+häf-tigt, heiÿt Psy-choakus-tik. Da das Ge-hör evo-lu-tio-när als Alar-
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--23
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 
+     
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+[20 <./bilder/fraunhofer_akustik.png>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 
+     
+) [21 <./bilder/dom-unt-bild.png>] (./07_Umsetzung.tex
+Kapitel 7.
+
+Overfull \hbox (3.71959pt too wide) in paragraph at lines 4--4
+|\T1/EBGaramond-OsF/regular/n/24.88 Umsetzung - be-wuss-tes An-spre-chen von Em
+o-
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--16
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 
+     
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
+
 
 Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                At least 32.99352pt needed,
@@ -336,32 +577,201 @@ Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                processing, but you should do this yourself,
 (scrlayer-scrpage)                e.g., setting geometry's option
 (scrlayer-scrpage)                `head=32.99352pt'.
-(scrlayer-scrpage)                I'll also decrease \topmargin on input line 1
-22.
+(scrlayer-scrpage)                I'll also decrease \topmargin on input line 2
+8.
 
 
 Overfull \vbox (10.99352pt too high) has occurred while \output is active
-[5] (./06_Zusammenfassung.tex) [6] (./99_Projektabschnitte.tex)
+[23]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 
+     
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 
+     
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+
+[24 <./bilder/contrast-gelassenheit.png> <./bilder/contrast-box.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.56 
+     
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.65 
+     
+[25 <./bilder/adobecolor.png>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 
+     
+[26 <./bilder/website-gelassen.png> <./bilder/website-gelassen-hover.png>]
+Overfull \hbox (6.41759pt too wide) in paragraph at lines 75--75
+|[]\T1/EBGaramond-OsF/regular/n/14.4 Webseite - be-wuss-tes Ein-set-zen der Ele
+-men-te für die In-du-zie-rung von Nost-
+[27]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.91 
+     
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.98 
+     
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--102
+
+[28 <./bilder/contrast.png> <./bilder/name-bin-dabei.png>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.110 
+      
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--114
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.122 
+      
+[29 <./bilder/schrift-freie-plaÌˆtze3.png> <./bilder/schrift-freie-plaÌˆtze1.pn
+g>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.133 
+      
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.143 
+      
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.151 
+      
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
+
+[30 <./bilder/rot-dabei.png> <./bilder/ekelhaft.png> <./bilder/na-endlich.png>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.162 
+      
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 
+      
+[31 <./bilder/angst1.png> <./bilder/angst2.png>]) [32]
+(./08_Zusammenfassung.tex) [33] (./99_Projektabschnitte.tex)
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 129.
+(hyperref)                be the same. Added a new anchor on input line 133.
 
-[2] (./dokumentation.lol) [3]
+pdfTeX warning (ext4): destination with the same identifier (name{page.II}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.136 \addcontentsline
+                      {toc}{section}{\listtablename} [2]
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmtt.fd)
-Overfull \hbox (9.3055pt too wide) in paragraph at lines 141--141
+Overfull \hbox (13.20367pt too wide) in paragraph at lines 145--145
 []\T1/EBGaramond-OsF/regular/n/10.95 T. van Gorp, \T1/EBGaramond-OsF/regular/it
 /10.95 Emo-tio-nal de-sign with A.C.T. - part 1\T1/EBGaramond-OsF/regular/n/10.
 95 , Ju-ni 2013. Adres-se: []$\T1/lmtt/m/n/10.95 https : / / boxesandarrows .
-[4] (./dokumentation.aux) )
+
+Overfull \hbox (21.56761pt too wide) in paragraph at lines 145--145
+\T1/EBGaramond-OsF/regular/n/10.95 2003. \T1/EBGaramond-OsF/regular/sc/10.95 do
+i\T1/EBGaramond-OsF/regular/n/10.95 : []$\T1/lmtt/m/n/10.95 10 . 1201 / 9780203
+608173$[]\T1/EBGaramond-OsF/regular/n/10.95 . Adres-se: []$\T1/lmtt/m/n/10.95 h
+ttps : / / doi . org / 10 . 1201 / 9780203608173$[]\T1/EBGaramond-OsF/regular/n
+/10.95 . 
+[3] [4] (./dokumentation.lof [5]) [6] (./dokumentation.aux) )
 (see the transcript file for additional information){/usr/local/texlive/2021/te
 xmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2021/texmf-dist/fonts
 /enc/dvips/ebgaramond/ebgm_ljow5q.enc}{/usr/local/texlive/2021/texmf-dist/fonts
+/enc/dvips/ebgaramond/ebgm_ld6df2.enc}{/usr/local/texlive/2021/texmf-dist/fonts
 /enc/dvips/ebgaramond/ebgm_tcdnmr.enc}{/usr/local/texlive/2021/texmf-dist/fonts
 /enc/dvips/ebgaramond/ebgm_byuyni.enc}</usr/local/texlive/2021/texmf-dist/fonts
 /type1/public/ebgaramond/EBGaramond-Bold.pfb></usr/local/texlive/2021/texmf-dis
 t/fonts/type1/public/ebgaramond/EBGaramond-Italic.pfb></usr/local/texlive/2021/
 texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Regular.pfb></usr/local/tex
 live/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on dokumentation.pdf (12 pages, 459656 bytes).
+Output written on dokumentation.pdf (41 pages, 7438127 bytes).
 SyncTeX written on dokumentation.synctex.gz.
 Transcript written on dokumentation.log.
