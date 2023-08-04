@@ -352,7 +352,7 @@ l.36
 
 Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
-[4 <./bilder/verh-bez-des.png> <./bilder/refl-design.png>]) [5]
+[4 <./bilder/refl-design.png> <./bilder/verh-bez-des.png>]) [5]
 (./03_Grundlagen.tex
 Kapitel 3.
 
@@ -408,7 +408,6 @@ Type  H <return>  for immediate help.
                                                   
 l.29 
      
-[11 <./bilder/sad-happy.png> <./bilder/dom.png>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -418,7 +417,8 @@ Type  H <return>  for immediate help.
                                                   
 l.36 \section
              {Angst, Ãœberraschung, Wut}
-) [12 <./bilder/unt.png>] (./05_Beziehung_Konflikt.tex
+[11 <./bilder/sad-happy.png> <./bilder/dom.png>]) [12 <./bilder/unt.png>]
+(./05_Beziehung_Konflikt.tex
 Kapitel 5.
 
 Overfull \hbox (22.57272pt too wide) in paragraph at lines 4--4
@@ -426,9 +426,6 @@ Overfull \hbox (22.57272pt too wide) in paragraph at lines 4--4
  und
 
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ! LaTeX Error: There's no line here to end.
@@ -439,20 +436,17 @@ Type  H <return>  for immediate help.
                                                   
 l.21 
      
-
+[13]
 Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
-[13]
+
 Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
-
+[14 <./bilder/goethe.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 28--29
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ! LaTeX Error: There's no line here to end.
@@ -463,7 +457,7 @@ Type  H <return>  for immediate help.
                                                   
 l.36 
      
-[14 <./bilder/goethe.jpg>] [15 <./bilder/farbkreis.png>]
+[15 <./bilder/farbkreis.png>] [16]
 Underfull \hbox (badness 10000) in paragraph at lines 45--47
 
 
@@ -481,7 +475,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
 Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
-[16 <./bilder/motivationsquadranten.png>]
+[17 <./bilder/motivationsquadranten.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
 
@@ -499,7 +493,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
 Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
-) [17] (./06_Einfluss.tex
+) [18] (./06_Einfluss.tex
 Kapitel 6.
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
@@ -519,7 +513,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
 Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
-[18]
+[19]
 Overfull \hbox (0.49278pt too wide) in paragraph at lines 21--23
 \T1/EBGaramond-OsF/regular/n/10.95 her-vor-ge-ru-fe-nen Hör-wahr-neh-mung be-sc
 häf-tigt, heiÿt Psy-choakus-tik. Da das Ge-hör evo-lu-tio-när als Alar-
@@ -541,7 +535,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
 Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
-[19 <./bilder/fraunhofer_akustik.png>]
+[20 <./bilder/fraunhofer_akustik.png>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -551,7 +545,7 @@ Type  H <return>  for immediate help.
                                                   
 l.62 
      
-) [20 <./bilder/dom-unt-bild.png>] (./07_Umsetzung.tex
+) [21 <./bilder/dom-unt-bild.png>] (./07_Umsetzung.tex
 Kapitel 7.
 
 Overfull \hbox (3.71959pt too wide) in paragraph at lines 4--4
@@ -560,7 +554,7 @@ o-
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--16
 
-[21]
+[22]
 Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
 
@@ -588,7 +582,7 @@ Package scrlayer-scrpage Warning: \headheight to low.
 
 
 Overfull \vbox (10.99352pt too high) has occurred while \output is active
-[22]
+[23]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -610,7 +604,7 @@ l.43
 
 Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
-[23 <./bilder/contrast-gelassenheit.png> <./bilder/contrast-box.png>]
+[24 <./bilder/contrast-gelassenheit.png> <./bilder/contrast-box.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
 
@@ -626,9 +620,6 @@ l.56
 Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 ! LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -637,6 +628,7 @@ Type  H <return>  for immediate help.
                                                   
 l.65 
      
+[25 <./bilder/adobecolor.png>]
 
 LaTeX Warning: File `bilder/website-gelassen-hover.png' not found on input line
  68.
@@ -653,9 +645,6 @@ l.68 ...twidth]{bilder/website-gelassen-hover.png}
                                                   
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmtt.fd)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 ! LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -664,14 +653,11 @@ Type  H <return>  for immediate help.
                                                   
 l.72 
      
-[24 <./bilder/adobecolor.png>]
+[26 <./bilder/website-gelassen.png>] [27]
 Overfull \hbox (6.41759pt too wide) in paragraph at lines 75--75
 |[]\T1/EBGaramond-OsF/regular/n/14.4 Webseite - be-wuss-tes Ein-set-zen der Ele
 -men-te für die In-du-zie-rung von Nost-
-[25 <./bilder/website-gelassen.png>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+[28]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -681,9 +667,6 @@ Type  H <return>  for immediate help.
                                                   
 l.91 
      
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 
 ! LaTeX Error: There's no line here to end.
 
@@ -696,10 +679,7 @@ l.98
 
 Underfull \hbox (badness 10000) in paragraph at lines 100--102
 
-[26]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+[29 <./bilder/contrast.png> <./bilder/name-bin-dabei.png>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -712,7 +692,6 @@ l.110
 
 Underfull \hbox (badness 10000) in paragraph at lines 112--114
 
-[27 <./bilder/contrast.png> <./bilder/name-bin-dabei.png>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -722,6 +701,8 @@ Type  H <return>  for immediate help.
                                                   
 l.122 
       
+[30 <./bilder/schrift-freie-plaÌˆtze3.png> <./bilder/schrift-freie-plaÌˆtze1.pn
+g>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -740,8 +721,6 @@ Type  H <return>  for immediate help.
                                                   
 l.143 
       
-[28 <./bilder/schrift-freie-plaÌˆtze3.png> <./bilder/schrift-freie-plaÌˆtze1.pn
-g> <./bilder/rot-dabei.png>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -754,7 +733,7 @@ l.151
 
 Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
-[29 <./bilder/ekelhaft.png> <./bilder/na-endlich.png>]
+[31 <./bilder/rot-dabei.png> <./bilder/ekelhaft.png> <./bilder/na-endlich.png>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -773,8 +752,8 @@ Type  H <return>  for immediate help.
                                                   
 l.169 
       
-[30 <./bilder/angst1.png> <./bilder/angst2.png>]) [31]
-(./08_Zusammenfassung.tex) [32] (./99_Projektabschnitte.tex)
+[32 <./bilder/angst1.png> <./bilder/angst2.png>]) [33]
+(./08_Zusammenfassung.tex) [34] (./99_Projektabschnitte.tex)
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 133.
@@ -807,6 +786,6 @@ xmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2021/texmf-dist/fonts
 t/fonts/type1/public/ebgaramond/EBGaramond-Italic.pfb></usr/local/texlive/2021/
 texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Regular.pfb></usr/local/tex
 live/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on dokumentation.pdf (40 pages, 7422294 bytes).
+Output written on dokumentation.pdf (42 pages, 7426109 bytes).
 SyncTeX written on dokumentation.synctex.gz.
 Transcript written on dokumentation.log.
