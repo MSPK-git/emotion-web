@@ -1,3 +1,8 @@
+.heading-emotion-two,
+p {
+  color: antiquewhite;
+}
+
 input[type="text"],
 select {
   width: 100%;
@@ -23,13 +28,57 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #45a049;
 }
+
 .button-one {
-    background-color: #4CAF50; /* Green */
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.outer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tv {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Add this property to center vertically */
+  width: 50%;
+  z-index: 5;
+  pointer-events: none;
+}
+
+
+.videoNostalgie {
+  border-radius: 12px;
     border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
+    width: 48%;
+    height: 165px;
+    scale: 2.1;
+    margin-bottom: 49px;
+    margin-right: 127px;
+}
+
+/*  width: 616px;
+    margin-top: 363px;
+    height: 453px;
+    margin-left: 76px;
+}*/
+
+.youtube-video-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  border-radius: 12px !important;
+
+}
