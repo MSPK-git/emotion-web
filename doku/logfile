@@ -13,8 +13,8 @@ WARN - legacy month field 'August' in entry 'dom_bsp' is not an integer - this w
 WARN - legacy month field 'August' in entry 'unt_bsp' is not an integer - this will probably not sort properly.
 WARN - legacy month field 'May' in entry 'Schubert2016' is not an integer - this will probably not sort properly.
 WARN - I didn't find a database entry for 'elliot2004' (section 0)
-INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
 INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
 INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
 INFO - No sort tailoring available for locale 'de-DE'
 INFO - Writing 'dokumentation.bbl' with encoding 'UTF-8'
@@ -545,7 +545,7 @@ Type  H <return>  for immediate help.
                                                   
 l.62 
      
-) [21 <./bilder/dom-unt-bild.png>] (./07_Umsetzung.tex
+) [21 <./bilder/dom-unt-bild.png>] (./07_Umsetzung.tex [22]
 Kapitel 7.
 
 Overfull \hbox (3.71959pt too wide) in paragraph at lines 4--4
@@ -554,7 +554,7 @@ o-
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--16
 
-[22]
+[23]
 Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
 
@@ -582,7 +582,7 @@ Package scrlayer-scrpage Warning: \headheight to low.
 
 
 Overfull \vbox (10.99352pt too high) has occurred while \output is active
-[23]
+[24]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -604,7 +604,7 @@ l.43
 
 Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
-[24 <./bilder/contrast-gelassenheit.png> <./bilder/contrast-box.png>]
+[25 <./bilder/contrast-gelassenheit.png> <./bilder/contrast-box.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
 
@@ -628,7 +628,7 @@ Type  H <return>  for immediate help.
                                                   
 l.65 
      
-[25 <./bilder/adobecolor.png>]
+[26 <./bilder/adobecolor.png>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -638,11 +638,11 @@ Type  H <return>  for immediate help.
                                                   
 l.72 
      
-[26 <./bilder/website-gelassen.png> <./bilder/website-gelassen-hover.png>]
+[27 <./bilder/website-gelassen.png> <./bilder/website-gelassen-hover.png>]
 Overfull \hbox (6.41759pt too wide) in paragraph at lines 75--75
 |[]\T1/EBGaramond-OsF/regular/n/14.4 Webseite - be-wuss-tes Ein-set-zen der Ele
 -men-te für die In-du-zie-rung von Nost-
-[27]
+[28]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -664,7 +664,7 @@ l.98
 
 Underfull \hbox (badness 10000) in paragraph at lines 100--102
 
-[28 <./bilder/contrast.png> <./bilder/name-bin-dabei.png>]
+[29 <./bilder/contrast.png> <./bilder/name-bin-dabei.png>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -686,7 +686,7 @@ Type  H <return>  for immediate help.
                                                   
 l.122 
       
-[29 <./bilder/schrift-freie-plaÌˆtze3.png> <./bilder/schrift-freie-plaÌˆtze1.pn
+[30 <./bilder/schrift-freie-plaÌˆtze3.png> <./bilder/schrift-freie-plaÌˆtze1.pn
 g>]
 
 ! LaTeX Error: There's no line here to end.
@@ -718,7 +718,7 @@ l.151
 
 Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
-[30 <./bilder/rot-dabei.png> <./bilder/ekelhaft.png> <./bilder/na-endlich.png>]
+[31 <./bilder/rot-dabei.png> <./bilder/ekelhaft.png> <./bilder/na-endlich.png>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -737,25 +737,121 @@ Type  H <return>  for immediate help.
                                                   
 l.169 
       
-[31 <./bilder/angst1.png> <./bilder/angst2.png>]) [32]
-(./08_Zusammenfassung.tex) [33] (./99_Projektabschnitte.tex)
+[32 <./bilder/angst1.png> <./bilder/angst2.png>]) [33]
+(./08_Zusammenfassung.tex
+Kapitel 8.
+) [34] (./09_Technische_Umsetzung.tex
+Kapitel 9.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+
+Overfull \hbox (28.96416pt too wide) in paragraph at lines 11--12
+\T1/EBGaramond-OsF/regular/n/10.95 mein-schaft ha-ben Re-act zu ei-ner der be-v
+or-zug-ten Op-tio-nen für die Ent-wick-lung von Front-End-Anwendungen
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+[35]
+Overfull \hbox (3.8572pt too wide) in paragraph at lines 29--36
+\T1/EBGaramond-OsF/regular/n/10.95 Der vor-lie-gen-de Co-de stellt ein in-ter-a
+k-ti-ves, nutzer-zen-trier-tes Mo-dul in Re-act, ei-ner po-pu-lä-ren JavaScript
+-
+[36]
+Overfull \hbox (12.59561pt too wide) in paragraph at lines 39--48
+\T1/EBGaramond-OsF/regular/n/10.95 (durch `justify-content: cen-ter`) als auch 
+ver-ti-kal (durch `align-items: cen-ter`), dank der Flexbox-Eigenschaft. 
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--48
+
+[37]
+Overfull \hbox (18.2338pt too wide) in paragraph at lines 51--56
+\T1/EBGaramond-OsF/regular/n/10.95 row`-Divs ent-hält. Die ers-te `table-row` i
+st die Kopf-zei-le der Ta-bel-le, die die Spal-ten "Wer?ünd "Was?"definiert.
+
+Overfull \hbox (4.73943pt too wide) in paragraph at lines 51--56
+\T1/EBGaramond-OsF/regular/n/10.95 men der Per-son und den mit-ge-brach-ten Ar-
+ti-kel dar-stel-len. Die-se wer-den durch die Aus-drücke `item.name`
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.62 ...r-Effekte, die die Hintergrundfarbe auf `#
+                                                  45a049` Ã¤ndern, wenn der ...
+
+[38]
+Overfull \hbox (0.60696pt too wide) in paragraph at lines 76--87
+\T1/EBGaramond-OsF/regular/n/10.95 9. `row-sub-container .row-item`: Die-se Kla
+s-se be-zieht sich auf `row-item`-Elemente in-ner-halb ei-nes `row-
+[39]
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+
+[40]
+Overfull \hbox (5.1545pt too wide) in paragraph at lines 104--112
+\T1/EBGaramond-OsF/regular/n/10.95 3. `.button-one` und `.button-one[disabled]`
+: Die-se Se-lek-to-ren zie-len auf Ele-men-te mit der Klas-se `.button-
+
+Overfull \hbox (4.01126pt too wide) in paragraph at lines 114--123
+\T1/EBGaramond-OsF/regular/n/10.95 - `table-container`: De-fi-niert das Aus-se-
+hen und das Lay-out der Ta-bel-le. Die Ta-bel-le wird als Flex-Container
+[41]
+Overfull \hbox (3.38719pt too wide) in paragraph at lines 127--137
+\T1/EBGaramond-OsF/regular/n/10.95 ten, dar-un-ter `par-ty-I-tems`, `in-put-Na-
+me`, `in-pu-tI-tem`, `ti-meEn-ded`, `text-Change`, `bt-n-Pres-sA-mount` und
+[42]
+Underfull \hbox (badness 10000) in paragraph at lines 139--148
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
+
+[43]
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
+
+) (./99_Projektabschnitte.tex [44])
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 133.
+(hyperref)                be the same. Added a new anchor on input line 135.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.II}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.136 \addcontentsline
+l.138 \addcontentsline
                       {toc}{section}{\listtablename} [2]
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmtt.fd)
-Overfull \hbox (13.20367pt too wide) in paragraph at lines 145--145
+Overfull \hbox (13.20367pt too wide) in paragraph at lines 147--147
 []\T1/EBGaramond-OsF/regular/n/10.95 T. van Gorp, \T1/EBGaramond-OsF/regular/it
 /10.95 Emo-tio-nal de-sign with A.C.T. - part 1\T1/EBGaramond-OsF/regular/n/10.
 95 , Ju-ni 2013. Adres-se: []$\T1/lmtt/m/n/10.95 https : / / boxesandarrows .
 
-Overfull \hbox (21.56761pt too wide) in paragraph at lines 145--145
+Overfull \hbox (21.56761pt too wide) in paragraph at lines 147--147
 \T1/EBGaramond-OsF/regular/n/10.95 2003. \T1/EBGaramond-OsF/regular/sc/10.95 do
 i\T1/EBGaramond-OsF/regular/n/10.95 : []$\T1/lmtt/m/n/10.95 10 . 1201 / 9780203
 608173$[]\T1/EBGaramond-OsF/regular/n/10.95 . Adres-se: []$\T1/lmtt/m/n/10.95 h
@@ -772,6 +868,6 @@ xmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2021/texmf-dist/fonts
 t/fonts/type1/public/ebgaramond/EBGaramond-Italic.pfb></usr/local/texlive/2021/
 texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Regular.pfb></usr/local/tex
 live/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on dokumentation.pdf (41 pages, 7438127 bytes).
+Output written on dokumentation.pdf (52 pages, 7465467 bytes).
 SyncTeX written on dokumentation.synctex.gz.
 Transcript written on dokumentation.log.
