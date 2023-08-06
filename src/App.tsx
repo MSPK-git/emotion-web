@@ -24,9 +24,13 @@ export default function App() {
   return (
     <>
       {emotion !== Emotion.none ? (
-        <button className="round-1 button-float button-nostalgia" onClick={() => setEmotion(Emotion.none)}>
-          ←
-        </button>
+        <button 
+        className={`round-1 button-float ${emotion === Emotion.two ? "button-nostalgia" : ""}`} 
+        onClick={() => setEmotion(Emotion.none)}
+      >
+        ←
+      </button>
+      
       ) : (
         <div className="App">
           <header className="App-header">

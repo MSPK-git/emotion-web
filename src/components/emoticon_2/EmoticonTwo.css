@@ -47,6 +47,7 @@ select {
   font-size: 12px;
   background-color: #c0c0c0; /* classic gray background */
   border: 1px solid black;
+  border-radius: 0;
   padding: 2px 4px;
   color: black;
   appearance: none;
@@ -96,8 +97,6 @@ select:active, select:hover {
 .button-nostalgia:active {
   border: 2px inset #c0c0c0;
 }
-
-
 
 .outer {
   position: relative;
