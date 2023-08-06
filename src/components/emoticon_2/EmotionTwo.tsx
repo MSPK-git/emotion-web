@@ -1,87 +1,95 @@
 import { ReactElement, useState } from "react";
-// import Table from "./Table";
 import "./EmoticonTwo.css";
-import { useRecoilState } from "recoil";
-// import { partyItemsState } from "../../states/PartyItemState";
 import * as React from 'react';
 
+type SelectOption = {
+  value: string;
+  display: string;
+};
 
+const options: SelectOption[] = [
+  { value: '', display: 'Keine Zeit ausgewählt' },
+  { value: 'fNFzfwLM72c', display: '70er' },
+  { value: 'Qt2mbGP6vFI', display: '80er' },
+  { value: '4fndeDfaWCg', display: '90er' },
+  { value: 'LOZuxwVk7TU', display: '2000er' },
+];
+
+const EraContent: React.FC<{ era: string }> = ({ era }) => {
+  switch (era) {
+    case '70er':
+      return <div>Disco music, psychedelic art, Star Wars, personal computers</div>;
+    case '80er':
+      return <div>MTV, neon fashion, Brat Pack movies, video games</div>;
+    case '90er':
+      return <div>Grunge and hip hop music, Internet, popular TV shows, Y2K fears</div>;
+    case '2000er':
+      return <div>Social media, reality TV, smartphones, emo and pop punk music</div>;
+    default:
+      return null;
+  }
+};
 
 export type EmoticonTwo = {
   firstName: string;
   lastName: string;
 };
 
-/**
- * A reusable panel which displays a text about the current app, its version and the changelog.
- */
 export default function EmoticonTwo({
   firstName,
   lastName,
 }: EmoticonTwo): ReactElement {
-  const [videoId, setVideoId] = useState("");
-  // const videoUrl = `https://www.youtube.com/embed/${videoId}`; 
-  // console.log(videoUrl);
-  const handleChange = (event: { target: { value: React.SetStateAction<string>; }; }) => {
-    setVideoId(event.target.value);
-    
+  const [selectedOption, setSelectedOption] = useState<SelectOption>(options[0]);
+
+  const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    const value = event.target.value;
+    const option = options.find((option) => option.value === value);
+    if (option) setSelectedOption(option);
   };
+
   return (
-    <>
-      {/* <img
-          src=""
-          className={"photobook"}
-          alt="background"
-          style={{
-            opacity: 1,
-            width: "100%",
-          }}
-          /> */}
-      <div className="bg"
-        style={{
-          backgroundImage: `url('/nostalgia.jpg')`,
-          backgroundRepeat: 'no-repeat',
-          padding: "2px",
-          width: "100%",
-          height: "1500px",
-        }}
-      >
-        <div style={{ padding: "70px" }}>
-          <h1 className="heading-emotion-two">
-            Willkommen, In welche Zeit möchtest du zurückversetzt werden?
-          </h1>
-          <form>
-            <div>
-              <select value={videoId} onChange={handleChange}>
-                <option value="">Keine Zeit ausgewählt</option>
-                <option value="fNFzfwLM72c" className="70er">70er</option>
-                <option value="Qt2mbGP6vFI" className="80er">80er</option>
-                <option value="4fndeDfaWCg" className="90er">90er</option>
-                <option value="LOZuxwVk7TU" className="2000er">2000er</option>
-              </select>
-              <p>Sie haben ausgewählt: {videoId}</p>
-            </div>
-          </form>
-          <div className="outer">
-          <img className="tv" id="image" src="/oldTv.png" alt="Image Description" />
-          {videoId !== "" && <div className="youtube-video-container" >
-            <iframe className="videoNostalgie"
-              width="1080px"
-              height="720px"
-              src={`https://www.youtube.com/embed/${videoId}`}
-              title="YouTube video player"
-              // frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              // allowfullscreen
-              ></iframe>
-          </div>}
-              </div>
-          
-          <div className="table" style={{ display: "flex" }}>
-            {/* <Table items={partyItems}></Table> */}
+    <div className="bg"
+      style={{
+        backgroundImage: `url('/nostalgia.jpg')`,
+        backgroundRepeat: 'no-repeat',
+        padding: "2px",
+        width: "100%",
+        height: "1500px",
+      }}
+    >
+      <div style={{ padding: "70px" }}>
+        <h1 className="heading-emotion-two">
+          Willkommen, In welche Zeit möchtest du zurückversetzt werden?
+        </h1>
+        <form>
+          <div>
+            <select value={selectedOption.value} onChange={handleChange}>
+              {options.map((option) => (
+                <option key={option.value} value={option.value}>
+                  {option.display}
+                </option>
+              ))}
+            </select>
+            <p>Sie haben ausgewählt: {selectedOption.display}</p>
           </div>
+        </form>
+        {selectedOption.value !== "" && 
+          <div className="outer">
+            <img className="tv" id="image" src="/oldTv.png" alt="Image Description" />
+            <div className="youtube-video-container" >
+              <iframe className="videoNostalgie"
+                width="1080px"
+                height="720px"
+                src={`https://www.youtube.com/embed/${selectedOption.value}?autoplay=1&controls=0`}
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                ></iframe>
+            </div>
+          </div>}
+        <EraContent era={selectedOption.display} />
+        <div className="table" style={{ display: "flex" }}>
         </div>
       </div>
-    </>
+    </div>
   );
 }
