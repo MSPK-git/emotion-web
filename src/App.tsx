@@ -23,7 +23,7 @@ export default function App() {
   return (
     <>
       {emotion !== Emotion.none ? (
-        <button className="round-1 button-float" onClick={() => setEmotion(Emotion.none)}>
+        <button className="round-1 button-float button-nostalgia" onClick={() => setEmotion(Emotion.none)}>
           ←
         </button>
       ) : (

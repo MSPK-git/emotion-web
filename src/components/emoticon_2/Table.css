@@ -16,13 +16,6 @@ body {
     align-items: center;
     width: 100%;
   }
-  
-  /* .bg{
-    /* background-color: ; 
-    background-image: url(${process.env.PUBLIC_URL} + '/your-image.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-  } */
 
   .table-container {
     display: flex;
