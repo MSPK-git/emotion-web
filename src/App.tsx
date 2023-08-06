@@ -18,6 +18,7 @@ export default function App() {
     padding: "20px",
     margin: "10px",
     borderRadius: "10px",
+    color: "black"
   };
 
   return (
