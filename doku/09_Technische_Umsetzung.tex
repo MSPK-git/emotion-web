@@ -1,0 +1,176 @@
+\documentclass[./dokumentation.tex]{subfiles}
+
+\begin{document}
+\chapter{Technische Umsetzung}
+Die Umsetzung der Webseite wurde mit der JavaScript Library React.js durchgeführt.  React.js ist eine verbreitete und leistungsfähige JavaScript-Bibliothek, die es ermöglicht, interaktive Benutzeroberflächen für Webanwendungen zu erstellen. Entwickelt und open-source veröffentlicht von Facebook, ist React darauf ausgerichtet, die Entwicklung von benutzerfreundlichen und reaktionsfähigen UI-Komponenten zu erleichtern.\\
+
+Reacts Kern besteht aus verschiedenen Komponenten, wodurch die UI in unabhängige, wiederverwendbare Teile aufgeteilt wird. Diese Komponenten können dann hierarchisch strukturiert und miteinander kombiniert werden, um komplexe Anwendungen zu erstellen. Die Verwendung von JSX, einer JavaScript-Erweiterung, ermöglicht es, UI-Elemente deklarativ und leicht lesbar zu definieren, was die Effizienz des Entwicklungsprozesses erhöht.\\
+
+Ein weiterer Schlüsselaspekt von React ist der sogenannte ,,Virtual DOM''. Dies ist eine abstrakte Darstellung des eigentlichen Document Object Models (DOMs) der Webseite. Durch den Einsatz des Virtual DOMs kann React Änderungen effizient nachverfolgen und nur die tatsächlich erforderlichen Aktualisierungen am tatsächlichen DOM vornehmen, was zu einer verbesserten Leistung und Reaktionsfähigkeit führt.\\
+
+Zusammengefasst ist React.js eine leistungsstarke und flexible Bibliothek, die Entwicklern dabei hilft, moderne und ansprechende Benutzeroberflächen zu erstellen, ohne sich mit komplexen DOM-Manipulationen herumschlagen zu müssen. Die breite Unterstützung und eine aktive Entwicklergemeinschaft haben React zu einer der bevorzugten Optionen für die Entwicklung von Front-End-Anwendungen gemacht.\\
+
+Der gesamte Code besteht aus einem Grundgerüst, der Applikation mit einem Stylesheet sowie Unterverzeichnissen für die einzelnen Emotionen. Im nachfolgenden wollen wir auf die einzelnen Codebestandteile des Projekts eingehen. 
+
+\section{Emotion Gelassenheit}
+\subsection{EmoticonOne.css}
+Die CSS-Dateien der einzelnen Emotionen definieren das Styling der jeweiligen ,,unterabschnitte'', in diesem Fall der Emotion Gelassenheit. CSS ist eine Stilisierungssprache, die für die visuelle Gestaltung von HTML-Dokumenten genutzt wird. Durch die Ausführung dieses CSS-Codes werden verschiedene HTML-Elemente geordnet und auf eine Weise gestaltet, die Benutzerfreundlichkeit und Ästhetik in den Vordergrund stellt.\\
+Zu Beginn des Codes werden zwei Schriftarten von Google Fonts, 'Montserrat' und 'Nanum Myeongjo', importiert. Dies erlaubt eine personalisierte, benutzerdefinierte Typographie auf der Webseite, was die Benutzererfahrung erleichtern soll und die visuelle Hierarchie unterstützen kann.\\
+Es werden allgemeine Stilregeln für Texteingabefelder (\verb+input[type="text"]+) und Auswahlboxen (\verb+select+) definiert. Hier wird die Breite, der Abstand und das Erscheinungsbild dieser Elemente bestimmt. Speziell die '\verb+box-sizing+'-Eigenschaft wird hier genutzt, die eine intuitive und vorhersagbare Größenberechnung von Elementen ermöglicht.\\
+Darüber hinaus werden Stilregeln für den Absenden-Button (\verb+input[type="submit"]+) festgelegt, welche das Aussehen des Buttons im Normalzustand sowie während der Interaktion (bei Hover, also dem Schweben der Maus über dem Aktionsfeld) bestimmen. Der Hover-Zustand ist ein wesentliches Element im Bereich der Mikrointeraktionen, das hilft, ein reaktives und interaktives Benutzererlebnis zu schaffen.\\
+Mit der '\verb+.button1+'-Klasse wird ein weiterer Stil für einen Button vorgestellt, der ebenfalls auf Mikrointeraktionsprinzipien mit einer Hover-Funktionalität setzt.\\
+Die Klassen '\verb+.emo1\_h1+' und '\verb+.emo1\_p+' dienen zur Stilisierung spezifischer Überschriften und Absatztexte, mit besonderem Augenmerk auf Schriftgröße, Schriftart und Farbe, um sowohl Lesbarkeit als auch ästhetische Anforderungen zu erfüllen.\\
+Die '\verb+.form1+'-Klasse legt Layout-Regeln für ein Formular fest, insbesondere in Bezug auf Größe und Positionierung.\\
+Die Klassen '.input1' und '.input1:focus' legen das Aussehen von Eingabefeldern im Normal- und Fokus-Zustand fest. Der Fokus-Zustand tritt auf, wenn ein Benutzer mit dem Eingabeelement interagiert, was beispielsweise durch Klicken oder Tippen ausgelöst wird. \\
+Die '\verb+.table1+'-Klasse modifiziert das Erscheinungsbild einer Tabelle, während die '\verb+.label1+'-Klasse zur Gestaltung von Beschriftungen (Labels) dient.\\
+
+\subsection{EmoticonOne.tsx}
+Dieser Code stellt ein interaktives, nutzerzentriertes Modul in React dar. Das Hauptziel dieses Moduls ist die Organisation einer Grillparty, bei der Teilnehmer ihren Namen und die mitgebrachten Gegenstände eintragen können. \\
+Das Modul importiert mehrere Ressourcen, darunter React selbst, den useState-Hook von React, der zur Speicherung des lokalen Zustands verwendet wird, und ein selbst erstelltes '\verb+Table+'-Komponente. Zudem wird '\verb+useRecoilState+' aus der '\verb+recoil+'-Bibliothek importiert, einem State-Management-Tool, und der '\verb+partyItemsState+', der den Zustand der mitgebrachten Gegenstände der Grillparty verwaltet.
+In der Hauptkomponente '\verb+EmoticonOne+' werden zunächst einige Zustände mit useState und useRecoilState initialisiert. Darunter 'partyItems', der die mitgebrachten Gegenstände speichert, und '\verb+inputName+' und '\verb+inputItem+', die den aktuellen Texteingabewert der Eingabefelder speichern.
+Die Funktion '\verb+setInputName+' und '\verb+setInputItem+' werden verwendet, um den Wert der Eingabefelder zu aktualisieren, wenn der Benutzer einen Text eingibt. Diese Aktualisierung wird über den '\verb+onChange+'-Event-Handler der Eingabefelder ausgelöst.\\
+Es folgt ein Formular, in dem der Benutzer seinen Namen und den mitzubringenden Gegenstand eingeben kann. Bei Klick auf den ,,Speichern''-Button wird überprüft, ob beide Eingabefelder ausgefüllt sind. Ist dies der Fall, wird der neue Eintrag in den '\verb+partyItems+'-Zustand aufgenommen.\\
+Zum Schluss wird die '\verb+Table+'-Komponente gerendert, die als Prop '\verb+items+' den aktuellen Zustand der '\verb+partyItems+' erhält. Dies ermöglicht es der Tabelle, den aktuellen Zustand der Grillparty darzustellen.\\
+
+\subsection{Table.css}
+
+In diesem CSS-Snippet werden primär die Formatierungen für eine Tabellenstruktur und einige allgemeine Elemente wie den Körper (\verb+body+) der Webseite definiert. Dieses Stück Code ist besonders durch den Einsatz der Flexbox-Layouttechnik charakterisiert.\\
+Zunächst wird eine allgemeine CSS-Reset-Regel für den \verb+body+ des Dokuments angewandt. Dabei wird die Schriftfamilie auf '\verb+Helvetica+' festgelegt und die Höhe und Breite jeweils auf 100\% eingestellt, um den gesamten verfügbaren Platz zu nutzen. Margen und Polster werden auf null gesetzt, um potenzielle Browser-Standardeinstellungen zu beseitigen.\\
+Es folgen Styling-Regeln für den Hauptcontainer \verb+.main-container+. Dieser nimmt die gesamte Breite und Höhe des Bildschirms ein und positioniert seine Kindeelemente mittig auf der Seite, sowohl horizontal (durch \verb+justify-content: center+) als auch vertikal (durch \verb+align-items: center+), dank der Flexbox-Eigenschaft.\\
+Für den \verb+.table-container+ wird eine Spaltenflexbox festgelegt, wodurch seine Kindelemente (die Tabellenzeilen) in einer vertikalen Sequenz angeordnet werden. Zusätzlich wird eine Breite von 100\% festgelegt und ein Schatten hinzugefügt, um die Tabelle vom Hintergrund hervorzuheben.\\
+Die Tabellenzeilen \verb+.table-row+ und ihre Kindelemente werden ebenfalls als Flexboxen angeordnet, allerdings in einer Zeilenorientierung. Außerdem wird eine Untergrenze hinzugefügt, um die Zeilen voneinander zu trennen.\\
+Die \verb+.heading+-Klasse, die für Tabellenkopfzeilen verwendet wird, erhält eine spezifische Hintergrundfarbe und Schriftfarbe, sowie eine Fettdruckformatierung. \\
+Die Elemente \verb+.row-item+ werden so gestaltet, dass sie den zur Verfügung stehenden Platz gleichmäßig aufteilen (durch \verb+flex: 1+). Ein Hover-Effekt ist vorhanden, der den Hintergrund des Elements beim Darüberfahren mit der Maus ändert.\\
+Die Klasse \verb+.row-sub-container+ ermöglicht es, in einer Zeile weitere untergeordnete Zeilen zu haben, die als separate Flexbox-Kolumnen angeordnet sind. Ihre Kindelemente erhalten zusätzlichen Padding und eine Untergrenze.\\
+Schließlich wird die Untergrenze des letzten Elements einer \verb+.table-row+ und eines \verb+.row-sub-container+ entfernt, um doppelte Grenzen am Ende zu vermeiden. Dies gewährleistet eine saubere visuelle Darstellung der Tabelle.\\
+
+\subsection{Table.tsx}
+
+In diesem React-Komponenten-Code wird eine Tabelle erstellt, die eine Liste von Partyartikeln darstellt. Diese Komponente wird als funktional definiert und verwendet TypeScript für die Typisierung.\\
+Die Tabelle wird durch die Komponente \verb+Table+ dargestellt, die ein \verb+TableProps+-Objekt als Parameter nimmt. Dieses Objekt enthält ein Array von \verb+PartyItem+-Objekten namens \verb+items+, das wiederum aus dem \verb+PartyItemState+ importiert wird. Jedes \verb+PartyItem+ repräsentiert eine Person (durch die \verb+name+-Eigenschaft) und den Artikel (durch die \verb+item+-Eigenschaft), den sie zur Party mitbringen.\\
+Die gerenderte Tabelle besteht aus einer HTML-\verb+div+ mit der Klasse \verb+table-container+, die mehrere \verb+table-row+-Divs enthält. Die erste \verb+table-row+ ist die Kopfzeile der Tabelle, die die Spalten ,,Wer?'' und ,,Was?'' definiert. Diese werden durch zwei \verb+row-item+-Divs repräsentiert.\\
+Anschließend wird die \verb+map+-Funktion verwendet, um über das Array von \verb+items+ zu iterieren und für jedes Element eine \verb+table-row+ zu erstellen. Innerhalb jeder Zeile gibt es zwei \verb+row-item+-Divs, die den Namen der Person und den mitgebrachten Artikel darstellen. Diese werden durch die Ausdrücke \verb+{item.name}+ und \verb+{item.item}+ interpoliert.\\
+Die Rückgabe dieser Funktion ist die vollständige \verb+table-container+-Div, die nun eine vollständige Tabelle mit den übergebenen Daten enthält. Da der Typ \verb+ReactElement+ angegeben ist, ist sichergestellt, dass das Ergebnis dieser Funktion ein valides React-Element ist.
+
+\section{Emotion Nostalgie}
+\subsection{EmoticonTwo.css}
+In diesem CSS-Codeblock wird das Styling für verschiedene HTML-Elemente definiert, einschließlich \verb+input+-Elementen, Schaltflächen und speziellen Klassen für spezifische Designanforderungen.\\
+
+Die \verb+.heading-emotion-two+ und \verb+p+ Selektoren legen die Textfarbe auf \verb+antiquewhite+ fest.\\
+Für die \verb+input[type="text"]+ und \verb+select+ Elemente wird das gesamte Box-Modell definiert, einschließlich Breite, Polsterung, Rand, Darstellung, Randfarbe und -stil, Randradius und Box-Sizing. Ähnlich wird für die \verb+input[type="submit"]+ Elemente eine vollständige Stilisierung definiert, einschließlich der Hover-Effekte, die die Hintergrundfarbe auf \verb+#45a049+ ändern, wenn der Benutzer mit der Maus über das Element fährt.\\
+Die Klasse \verb+.button-one+ bietet Stildefinitionen für eine Schaltfläche, einschließlich Hintergrundfarbe, Rand, Textfarbe, Polsterung, Textausrichtung, Textdekoration, Anzeige und Schriftgröße.\\
+Die Klassen \verb+.outer+ und \verb+.tv+ sind gleich gestaltet und positionieren ihr Inhaltselement relativ zu seinem Elternelement und zentrieren es mithilfe von Flexbox-Layout-Techniken sowohl horizontal als auch vertikal. Für die \verb+.tv+ Klasse wird außerdem eine z-Index-Position festgelegt, um die Stapelreihenfolge von überlappenden Elementen zu steuern, und die Mausereignisse werden auf none gesetzt, um jegliche Interaktion mit diesem Element zu verhindern.\\
+Die \verb+.videoNostalgie+ Klasse stellt spezifische Stildefinitionen für ein Video bereit, einschließlich Randradius, Rand, Breite, Höhe, Skalierung und Rand.\\
+Schließlich wird die \verb+.youtube-video-container+ Klasse für ein Element definiert, das absolut positioniert ist und dessen Inhalt mithilfe von Flexbox zentriert ist. Der Randradius für dieses Element wird mit hoher Priorität festgelegt, um andere mögliche Stile zu überschreiben.
+
+\subsection{EmoticonTwo.tsx}
+In dieser React-Komponente werden mehrere Funktionen und Zustände erstellt und verwendet. Sie wird mit TypeScript geschrieben, was durch die Verwendung von Typen wie \verb+ReactElement+, \verb+useState+ und \verb+useRecoilState+ sowie den benutzerdefinierten Typ \verb+EmoticonTwo+ erkennbar ist. \\
+Ein Zustand wird für die Speicherung der Video-ID von YouTube eingeführt, die initial leer ist. Die Funktion \verb+handleChange+ wird erstellt, um den Zustand der Video-ID zu aktualisieren, wenn sich der Wert der \verb+select+-Option ändert.\\
+Die Hauptkomponente \verb+EmoticonTwo+ nimmt \verb+firstName+ und \verb+lastName+ als Eigenschaften entgegen und gibt ein \verb+ReactElement+ zurück. Im Hauptrendering-Abschnitt der Komponente gibt es ein Formularelement mit einem \verb+select+-Element, das mehrere Optionen enthält, jede mit einer spezifischen Video-ID, die zu einer spezifischen Zeitperiode gehört (70er, 80er, 90er, 2000er). \\
+Bei Änderung des ausgewählten Werts wird die \verb+handleChange+-Funktion aufgerufen, welche den Zustand der \verb+videoId+ aktualisiert. Wenn ein Wert für die \verb+videoId+ ausgewählt ist (d.h., wenn \verb+videoId+ nicht leer ist), wird ein \verb+iframe+-Element gerendert, das das entsprechende YouTube-Video einbettet und anzeigt. \\
+Die ausgewählte Video-ID wird auch in einem Absatz unter dem \verb+select+-Element angezeigt. Insgesamt ist diese Komponente ein einfacher Videoauswähler, der verschiedene YouTube-Videos basierend auf der vom Benutzer gewählten Zeitperiode anzeigt.
+
+\subsection{Table.css}
+In diesem CSS-Code sind verschiedene Klassen definiert, die zur Gestaltung von Elementen in einer Webseite oder einer Webanwendung verwendet werden können.\\
+\begin{enumerate}
+    \item  \verb+body+: Diese Klasse bezieht sich auf das body-Element der Webseite. Sie setzt die Größe auf 100\%, entfernt Margen und Polster und setzt die Schriftfamilie auf Helvetica.\\
+    \item \verb+main-container+: Diese Klasse bezieht sich auf den Hauptcontainer der Webseite. Sie setzt die Größe auf 100\%, macht den Container zu einem Flex-Container und zentriert seine Kinder sowohl horizontal als auch vertikal.\\
+    \item \verb+table-container+: Diese Klasse bezieht sich auf einen Container, der als Tabelle verwendet wird. Sie macht den Container zu einem Flex-Container und fügt einen Rand und einen Schatten hinzu.\\
+    \item  \verb+table-row+: Diese Klasse bezieht sich auf eine Zeile in der Tabelle. Sie macht die Zeile zu einem Flex-Container und fügt einen Rand unten hinzu.\\
+    \item \verb+heading+: Diese Klasse bezieht sich auf Überschriften in der Tabelle. Sie ändert die Hintergrundfarbe und die Textfarbe und macht den Text fett.\\
+    \item \verb+row-item+: Diese Klasse bezieht sich auf einzelne Elemente in einer Zeile. Sie setzt das Flex-Verhältnis auf 1, was bedeutet, dass alle row-item-Elemente den verfügbaren Platz gleichmäßig aufteilen. Außerdem werden verschiedene andere Stile gesetzt, darunter Polsterung, Textausrichtung und Übergänge.\\
+    \item  \verb+row-item:hover+: Diese Klasse wird angewendet, wenn der Benutzer mit der Maus über ein row-item-Element fährt. Sie ändert die Hintergrundfarbe.\\
+    \item \verb+row-sub-container+: Diese Klasse bezieht sich auf einen Container innerhalb einer Zeile. Sie macht den Container zu einem Flex-Container und setzt das Flex-Verhältnis auf 1.\\
+    \item \verb+row-sub-container .row-item+: Diese Klasse bezieht sich auf \verb+row-item+-Elemente innerhalb eines \verb+row-sub-container+. Sie fügt unten einen Rand hinzu.\\
+    \item \verb+.table-row:last-child+ und \verb+.row-sub-container .row-item:last-child+: Diese Klassen beziehen sich auf das letzte Element in einer Tabelle oder in einem Untercontainer. Sie entfernen den Rand unten.
+\end{enumerate}
+
+\subsection{Table.tsx}
+Diese Datei wurde in dieser Emotion nicht gebraucht, da der ursprüngliche Table nicht genutzt wurde 
+
+\section{Emotion Stress - Unsicherheit - Wut}
+\subsection{Timer.tsx}
+In diesem Code wird eine React-Komponente namens ,,Timer'' erstellt. Die Komponente nimmt eine endOfTime-Funktion als Prop und zeigt eine Nachricht an, die anzeigt, wie viele ,,Plätze'' noch übrig sind. Diese Anzahl nimmt jede Sekunde um eins ab, und wenn sie null erreicht, wird die endOfTime-Funktion aufgerufen.\\
+
+Hier ist eine Erklärung der einzelnen Teile des Codes:\\
+\begin{itemize}
+    \item \verb+useState+: Dies ist ein React Hook, der es ermöglicht, den Zustand in funktionalen Komponenten zu haben. Es werden zwei Zustandsvariablen verwendet: \verb+seconds+, die angibt, wie viele Sekunden (oder Plätze) noch übrig sind, und \verb+fontSize+, die die Schriftgröße des angezeigten Textes steuert.\\
+    \item \verb+useEffect+: Dies ist ein weiterer React Hook, der es ermöglicht, Nebenwirkungen in funktionalen Komponenten zu haben. Der erste useEffect-Hook startet ein Intervall, das jede Sekunde die \verb+seconds+ und \verb+fontSize+ aktualisiert. Der zweite useEffect-Hook überwacht die \verb+seconds+-Variable und ruft die \verb+endOfTime+-Funktion auf, wenn \verb+seconds+ kleiner als 0 wird.\\
+    \item \verb+return+: Dies gibt die JSX zurück, die gerendert werden soll. Der gerenderte Text zeigt die verbleibende Anzahl von ,,Plätzen'' an und wird größer, je weniger Plätze übrig sind. Wenn keine Plätze mehr übrig sind, wird der Text auf ,,nur noch EIN Platz frei!'' gesetzt.\\
+\end{itemize}
+Die endOfTime-Funktion, die von der aufrufenden Komponente bereitgestellt wird bestimmt, was passiert, wenn keine Plätze mehr übrig sind.
+
+\subsection{EmoticonThree.css}
+In diesem CSS-Code sehen wir eine Reihe von Stilen, die auf verschiedene Elemente und Animationen angewendet werden. Hier ist eine Übersicht:\\
+\begin{enumerate}
+    \item \verb+.input3[type="text"]+ und \verb+.input3[type="submit"]+: Diese Selektoren zielen auf \verb+input+-Elemente ab, die die Klasse \verb+.input3+ haben und vom Typ \verb+text+ bzw. \verb+submit+ sind. Der Code bestimmt verschiedene Stilregeln für diese Elemente, wie die Breite, Padding, Ränder und Farben.\\
+    \item \verb+.input3:focus+: Dieser Selektor wird auf ein \verb+.input3+-Element angewendet, wenn es den Fokus hat (z. B. wenn der Benutzer auf das Element klickt oder es mit der Tabulatortaste erreicht). Die Umrandung des fokussierten Elements wird auf rot gesetzt.\\
+    \item \verb+.button-one+ und \verb+.button-one[disabled]+: Diese Selektoren zielen auf Elemente mit der Klasse \verb+.button-one+ ab. Wenn der Button deaktiviert ist (d.h. das \verb+disabled+ Attribut ist gesetzt), wird die Transparenz auf 0.2 gesetzt und der Mauszeiger wird auf \verb+not-allowed+ gesetzt, was dem Benutzer signalisiert, dass der Button nicht klickbar ist.\\
+    \item \verb+@keyframes fadeInOutAnimation+ und \verb+@keyframes slide+: Diese sind CSS-Animationen, die verwendet werden, um Elemente einzublenden und auszublenden bzw. sie über die Seite gleiten zu lassen.\\
+    \item \verb+.fadeInOut+, \verb+.fastFadeInOut+ und \verb+.fadeIn+: Diese Klassen verwenden die oben definierten Animationen, um Elemente ein- und auszublenden.\\
+    \item \verb+blink+, \verb+.blink+, \verb+.blinkOpacity+: Diese Klassen und Schlüsselbildanimationen erstellen einen Blink-Effekt, bei dem die Opazität oder Umrandung des Elements periodisch ein- und ausgeblendet wird.\\
+\end{enumerate}
+Insgesamt erstellt dieser Code eine Reihe von Stilen und Animationen, die auf verschiedene Elemente in Ihrer Webseite angewendet werden können, um deren Aussehen und Verhalten zu steuern.
+
+\subsection{table.css}
+Dieses CSS-Styling bezieht sich auf das Aussehen und das Layout einer Tabelle und zugehöriger Elemente. Lassen Sie uns die Klassen und ihre Funktionen im Detail betrachten:\\
+\begin{itemize}
+    \item \verb+body+: Stellt sicher, dass es keine Standardabstände um den Rand des Dokuments gibt und legt die Schriftfamilie auf ,,Helvetica'' fest.\\
+    \item \verb+main-container+: Legt das Layout der Hauptcontainer fest. Der Container wird so angepasst, dass er sich über die gesamte Breite und Höhe erstreckt, wobei die untergeordneten Elemente zentriert dargestellt werden.\\
+    \item  \verb+table-container+: Definiert das Aussehen und das Layout der Tabelle. Die Tabelle wird als Flex-Container definiert, wobei die untergeordneten Elemente in einer Spalte angeordnet sind.\\
+    \item \verb+table-row+: Legt das Layout jeder Zeile in der Tabelle fest. Jede Zeile wird als Flex-Container definiert, mit untergeordneten Elementen, die in einer Reihe angeordnet sind.\\
+    \item \verb+heading+: Definiert das Aussehen der Überschrift.\\
+    \item \verb+row-item+: Definiert das Layout jedes Elements in einer Zeile. Jedes Element wird als Flex-Container definiert, mit Inhalten, die zentriert angeordnet sind. Es gibt auch einen Hover-Effekt, der den Hintergrund des Elements ändert, wenn der Benutzer mit der Maus darüber fährt.\\
+    \item  \verb+row-sub-container+: Definiert das Layout eines untergeordneten Containers in einer Zeile. Der Container und seine untergeordneten Elemente werden als Flex-Container definiert, mit Elementen, die in einer Spalte angeordnet sind.\\
+\end{itemize}
+Die meisten dieser Klassen verwenden die Flexbox, um das Layout zu steuern, was es einfacher macht, eine reaktionsschnelle und flexible Benutzeroberfläche zu gestalten. Zu beachten ist, dass der letzte Eintrag in jeder Tabelle und jedem Unterkontainer keine untere Grenze hat, was zu einem saubereren Aussehen führt.
+
+\subsection{EmoticonThree.tsx}
+
+Die Komponente \verb+EmoticonThree+ ist ein funktionaler React-Komponente. Sie benutzt den \verb+useState+- und \verb+useEffect+-Hooks, um den Zustand zu verwalten und Seiteneffekte zu behandeln.\\ 
+Hier sind einige Hauptfunktionen dieser Komponente:\\
+\begin{enumerate}
+    \item  **Zustandsverwaltung:** Diese Komponente verwendet \verb+useState+, um mehrere Zustände zu verwalten, darunter \verb+partyItems+, \verb+inputName+, \verb+inputItem+, \verb+timeEnded+, \verb+textChange+, \verb+btnPressAmount+ und \verb+badItem+.\\
+    \item **Recoil-Zustandsverwaltung:** Die Komponente verwendet Recoil zur Zustandsverwaltung. Recoil ist eine Zustandsverwaltungs-Bibliothek für React, die atomare Zustandsverwaltung ermöglicht.\\
+    \item  **Effekte:** Es gibt einen \verb+useEffect+-Hook, der eine Funktion aufruft, wenn \verb+textChange+ aktualisiert wird.\\
+    \item  **Ende der Zeit:** Die Funktion \verb+endOfTime+ wird aufgerufen, um den Zustand \verb+timeEnded+ auf \verb+true+ zu setzen.\\
+    \item **Button pressed:** Die Funktion \verb+buttonPressed+ enthält eine Logik, die ausgeführt wird, wenn ein Benutzer auf den Button klickt. Sie aktualisiert verschiedene Zustände basierend auf dem aktuellen Zustand von btnPressAmount.\\
+\end{enumerate}
+Die gerenderte Ausgabe dieser Komponente besteht aus verschiedenen verschachtelten \verb+div+-Elementen und Formularelementen. Es gibt auch Bedingungen, die bestimmen, welche Elemente angezeigt werden, basierend auf verschiedenen Zuständen. Insbesondere gibt es eine bedingte Logik, die bestimmt, welcher Text im \verb+h1+-Element angezeigt wird, basierend auf dem Wert von \verb+textChange+. Es gibt auch eine Tabelle, die angezeigt wird, wenn \verb+textChange+ kleiner als 2 ist.\\
+Die Komponente enthält auch eine Grillparty-Anmeldung, bei der der Benutzer seinen Namen und das, was er zur Party mitbringen wird, eingeben kann. Die Eingaben werden in den Zustand aufgenommen und die Parteielemente werden in der Tabelle unten angezeigt.\\
+Insgesamt ist EmoticonThree eine interaktive Komponente, die mehrere Zustände verwaltet und eine Benutzereingabe akzeptiert. Sie zeigt verschiedene UI-Elemente basierend auf dem aktuellen Zustand an.
+\subsection{Table.tsx}
+
+In dieser Datei ist eine React-Komponente namens Table definiert, die die Teilnehmerdaten für eine Party darstellt. Lassen Sie uns die Datei Zeile für Zeile durchgehen:\\
+\begin{itemize}
+    \item Zeile 1: Importieren von \verb+React+ und \verb+ReactElement+ aus dem \verb+react+-Paket und Importieren der CSS-Datei \verb+Table.css+. \\
+    \item Zeile 2: Importieren der \verb+PartyItem+-Typdefinition aus der \verb+PartyItemState+-Datei.\\
+    \item Zeile 5-8: Definition der \verb+TableProps+-Typdefinition. Sie enthält ein Array von \verb+PartyItem+-Objekten namens \verb+items+.\\
+    \item Zeile 10: Die Funktion \verb+Table+ ist als Standardexport definiert. Sie akzeptiert ein \verb+TableProps+-Objekt als Argument und gibt ein \verb+ReactElement+ zurück.\\
+    \item Zeile 12: Beginn der render-Methode. Es gibt einen div-Container mit der Klasse \verb+table-container+ zurück. \\
+    \item Zeile 13-16: Innerhalb des \verb+table-container+ gibt es eine Kopfzeile mit zwei \verb+row-item+-Elementen für ,,Wer?'' und ,,Was?''. \\
+    \item Zeile 17-22: Für jedes \verb+item+ im \verb+items+-Array wird eine Zeile erstellt. Jede Zeile enthält zwei \verb+row-item+-Elemente, eins für den Namen des Teilnehmers und eins für den mitgebrachten Gegenstand. \\
+    \item Zeile 24: Ende des \verb+table-container+ div.\\
+\end{itemize}
+
+Diese Komponente ist zuständig für die Anzeige einer Tabelle, die alle Teilnehmer einer Party und die von ihnen mitgebrachten Gegenstände auflistet. Jede Zeile in der Tabelle entspricht einem \verb+PartyItem+, wobei der Name des Teilnehmers und der Gegenstand, den er mitbringt, in getrennten \verb+row-item+-Elementen dargestellt werden. Die Tabelle hat auch eine Kopfzeile, die die beiden Spalten als ,,Wer?'' und ,,Was?'' kennzeichnet.
+
+
+\subsection{Home.tsx}
+Hier ist die Komponente namens ,,Home'' definiert. Diese Komponente dient als Startseite oder Hauptbildschirm der Anwendung.\\
+
+\begin{itemize}
+    \item Zeile 1: Importieren von \verb+React+, \verb+ReactElement+, \verb+useEffect+, und \verb+useRef+ aus dem \verb+react+-Paket. \verb+useEffect+ und \verb+useRef+ sind allerdings ungenutzt. \\
+    \item Zeile 2: Importieren des \verb+logo+ aus der Datei \verb+../logo.svg+. \\
+    \item Zeile 5-14: Die Funktion \verb+Home+ ist als Standardexport definiert. Sie nimmt keine Argumente entgegen und gibt ein \verb+ReactElement+ zurück. Diese Funktion ist für das Rendern der Home-Komponente zuständig. \\
+    \item Zeile 6-13: Beginn der render-Methode. Es wird ein Fragment (durch \verb+<>+ und \verb+</>+ dargestellt) zurückgegeben, das die Haupt-UI der Home-Komponente enthält. Innerhalb dieses Fragments gibt es: \\
+    \item Eine div mit der Klasse \verb+App+, die den Hauptcontainer der Komponente darstellt. \\
+    \item Innerhalb dieser div gibt es einen Header mit der Klasse ,,App-header''.  \\
+    \item Ein img-Element, das das importierte Logo anzeigt. \\
+    \item Ein p-Element, das den Benutzer auffordert, seine bevorzugte Emotion in der Navigation oben auszuwählen.\\
+\end{itemize}
+
+Diese Komponente dient hauptsächlich dazu, den Benutzer zu begrüßen und ihn zu leiten, indem sie eine kurze Anweisung bereitstellt. Der Benutzer wird aufgefordert, seine bevorzugte Emotion in der Navigationsleiste oben auf dem Bildschirm auszuwählen. Das Logo der Anwendung wird auch in dieser Komponente angezeigt.
+\end{document}
+
+
