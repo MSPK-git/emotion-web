@@ -8,7 +8,7 @@
 \usepackage[ngerman]{babel}
  % bibliography
  % \usepackage[style=numeric,sorting=none]{biblatex} %,citestyle=authoryear
-\usepackage[style=ieee,sorting=none]{biblatex}
+\usepackage[style=apa,sorting=nyt]{biblatex}
 \addbibresource{lit.bib}
 \ExecuteBibliographyOptions{dashed=false}
 \usepackage{subfiles}
@@ -40,9 +40,11 @@
 \usepackage[hidelinks]{hyperref}
 % --- Font Style
 \usepackage[cmintegrals,cmbraces]{newtxmath}
-\usepackage{ebgaramond-maths}
-\usepackage[T1]{fontenc}
- % \usepackage[figure]{hypcap}
+%\usepackage{ebgaramond-maths}
+%\usepackage[T1]{fontenc}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+% \usepackage[figure]{hypcap}
  % \pagestyle{fancy}
  % ---------- Header und Footer 
  % ohead should contain rightmark, which should be the current section - todo!! look up fancyhdr and renewcommand
@@ -75,7 +77,7 @@
      \vspace{.5cm}
          {\scshape\Large Projektdokumentation \par}
          \vspace{1cm}
-     {\LARGE \bfseries Erstellen einer Website um die drei Emotionen\\“Gelassenheit, Nostalgie, Wut” anzusprechen. \par}   
+     {\LARGE \bfseries Erstellen einer Website um die drei Emotionen\\,,Gelassenheit, Nostalgie, Wut'' anzusprechen. \par}   
      \vspace{2cm}
      {\Large \textsc{Maria Pekar, 92 88 70 \\Scott Albers, 29 62 96\\Florian Schönsee, 94 04 85}\par}
      \vspace{0.5cm}
@@ -97,7 +99,7 @@
 % \subfile{00Abkuerzungsverzeichnis}
  % empty page
 
-%\newpage\null\thispagestyle{empty}\newpage
+\newpage\null\thispagestyle{empty}\newpage
 %\pagebreak
 %\pagenumbering{Roman}
 %\addcontentsline{toc}{section}{Verfassererklärung}
@@ -123,11 +125,12 @@
 \pagebreak
 \subfile{07_Umsetzung}
 \pagebreak
-\subfile{08_Zusammenfassung}
-\pagebreak
 \subfile{09_Technische_Umsetzung}
 \pagebreak
+\subfile{08_Zusammenfassung}
+\pagebreak
 \subfile{99_Projektabschnitte}
+\pagebreak
 \pagenumbering{Roman}
 \setcounter{page}{2}
 %\nocite{*}

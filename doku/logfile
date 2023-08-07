@@ -15,7 +15,7 @@ WARN - legacy month field 'May' in entry 'Schubert2016' is not an integer - this
 WARN - I didn't find a database entry for 'elliot2004' (section 0)
 INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
 INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
+INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'de-DE'
 INFO - No sort tailoring available for locale 'de-DE'
 INFO - Writing 'dokumentation.bbl' with encoding 'UTF-8'
 INFO - Output to dokumentation.bbl
@@ -50,14 +50,12 @@ Document Class: report 2020/04/10 v1.4m Standard LaTeX document class
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/url/url.sty)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/blx-dm.def)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex-apa/apa.dbx)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/blx-compat.def)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.def)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex-ieee/ieee.bbx
-(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
-(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
-(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/bbx/standard.bbx))))
-(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex-ieee/ieee.cbx
-(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex-apa/apa.bbx
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/bbx/standard.bbx))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex-apa/apa.cbx)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.cfg))
 (/usr/local/texlive/2021/texmf-dist/tex/latex/subfiles/subfiles.sty
 (/usr/local/texlive/2021/texmf-dist/tex/latex/import/import.sty))
@@ -272,25 +270,22 @@ Package tocbibind Note: Using chapter style headings, unless overridden.
 (/usr/local/texlive/2021/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
 (/usr/local/texlive/2021/texmf-dist/tex/latex/oberdiek/centernot.sty)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/kastrup/binhex.tex))
-(/usr/local/texlive/2021/texmf-dist/tex/latex/ebgaramond-maths/ebgaramond-maths
-.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/ebgaramond/ebgaramond.sty
-(/usr/local/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
-(/usr/local/texlive/2021/texmf-dist/tex/latex/lm/ot1lmr.fd))
-(/usr/local/texlive/2021/texmf-dist/tex/latex/fontaxes/fontaxes.sty)))
-(/usr/local/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
-(/usr/local/texlive/2021/texmf-dist/tex/latex/ebgaramond/T1EBGaramond-OsF.fd))/opt/homebrew/bin/pygmentize
+(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/helvet.sty)/opt/homebrew/bin/pygmentize
 
+(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1phv.fd)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
 (./dokumentation.aux)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/ebgaramond-maths/OMLEBGaramond-Ma
-ths.fd)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/ebgaramond/OT1EBGaramond-LF.fd)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/newtx/omlntxmi.fd)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/newtx/untxexa.fd)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/newtx/lmsntxsy.fd)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/newtx/lmxntxexx.fd)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex-apa/ngerman-apa.lbx
 (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
-(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/lbx/german.lbx)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/lbx/german.lbx))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex-apa/german-apa.lbx
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/lbx/german.lbx)))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex-apa/german-apa.lbx
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/lbx/german.lbx))))
 (/usr/local/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
@@ -316,11 +311,11 @@ Package biblatex Warning: The following entry could not be found
 (/usr/local/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
 ty)) (./dokumentation.out) (./dokumentation.out) [1{/usr/local/texlive/2021/tex
 mf-var/fonts/map/pdftex/updmap/pdftex.map} <./bilder/beide-logos.png>]
-(./dokumentation.toc
-(/usr/local/texlive/2021/texmf-dist/tex/latex/newtx/untxmia.fd)
+(./dokumentation.toc (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/ot1lmr.fd
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/newtx/untxmia.fd)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/newtx/untxsym.fd)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/newtx/untxsyc.fd) [1]) [2]
-(./01_Einleitung.tex
+[3] (./01_Einleitung.tex
 Kapitel 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
@@ -335,11 +330,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.114 \subfile
+l.116 \subfile
               {02_Potenzial} [1] (./02_Potenzial.tex
 Kapitel 2.
-(/usr/local/texlive/2021/texmf-dist/tex/latex/ebgaramond/TS1EBGaramond-OsF.fd)
-[2] [3 <./bilder/ipadbox.jpg>]
+(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1phv.fd) [2] [3 <./bilde
+r/ipadbox.jpg>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -380,6 +375,9 @@ l.24
 ) [7 <./bilder/russell1.png> <./bilder/russell2.png>] (./04_Verwendung.tex
 Kapitel 4.
 
+Overfull \hbox (0.718pt too wide) in paragraph at lines 4--4
+|\OT1/phv/m/n/24.88 Verwendung vom Emo-tio-nen im De-sign| 
+
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
 [8]
@@ -404,6 +402,7 @@ Type  H <return>  for immediate help.
                                                   
 l.29 
      
+[9 <./bilder/sad-happy.png>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -413,13 +412,8 @@ Type  H <return>  for immediate help.
                                                   
 l.36 \section
              {Angst, Ãœberraschung, Wut}
-[9 <./bilder/sad-happy.png> <./bilder/dom.png>]) [10 <./bilder/unt.png>]
-(./05_Beziehung_Konflikt.tex
+[10 <./bilder/dom.png> <./bilder/unt.png>]) [11] (./05_Beziehung_Konflikt.tex
 Kapitel 5.
-
-Overfull \hbox (22.57272pt too wide) in paragraph at lines 4--4
-|\T1/EBGaramond-OsF/regular/n/24.88 Beziehung/Konflikt von De-sign, Mar-ke-ting
- und
 
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
@@ -432,7 +426,7 @@ Type  H <return>  for immediate help.
                                                   
 l.21 
      
-[11]
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
 
@@ -441,7 +435,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
 Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
-[12 <./bilder/goethe.jpg>]
+[13 <./bilder/goethe.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
 
@@ -453,7 +447,7 @@ Type  H <return>  for immediate help.
                                                   
 l.36 
      
-[13 <./bilder/farbkreis.png>] [14]
+[14 <./bilder/farbkreis.png>] [15]
 Underfull \hbox (badness 10000) in paragraph at lines 45--47
 
 
@@ -468,12 +462,24 @@ l.54
 
 Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
+[16 <./bilder/motivationsquadranten.png>]
+Overfull \hbox (1.84125pt too wide) in paragraph at lines 61--62
+\OT1/phv/m/n/10.95 Ihre Kun-den sind in ih-ren Bed[]urfnissen und Ent-schei-dun
+-gen si-cher und ha-ben das Gef[]uhl,
 
 Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
-[15 <./bilder/motivationsquadranten.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
+
+Overfull \hbox (2.56474pt too wide) in paragraph at lines 66--67
+\OT1/phv/m/n/10.95 Bei die-sem Ver-brau-cher be-steht das wich-tigs-te Ziel Ih-
+res Un-ter-neh-mens dar-in, den K[]aufer
+
+Overfull \hbox (2.55719pt too wide) in paragraph at lines 66--67
+\OT1/phv/m/n/10.95 zu be-loh-nen. Durch ei-ne Be-loh-nung ent-steht beim Kun-de
+n das Gef[]uhl der Wertsch[]atzung.
 
 Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
@@ -489,8 +495,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
 Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
-) [16] (./06_Einfluss.tex
+) [17] (./06_Einfluss.tex
 Kapitel 6.
+
+Overfull \hbox (21.78185pt too wide) in paragraph at lines 5--6
+[]\OT1/phv/m/n/10.95 Ahnlichkeit, das Ge-setz der Ge-schlos-sen-heit und das Ge
+-setz der gleichf[]ormigen Ver[]anderung
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
@@ -509,11 +519,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
 Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
-[17]
-Overfull \hbox (0.49278pt too wide) in paragraph at lines 21--23
-\T1/EBGaramond-OsF/regular/n/10.95 her-vor-ge-ru-fe-nen Hör-wahr-neh-mung be-sc
-häf-tigt, heiÿt Psy-choakus-tik. Da das Ge-hör evo-lu-tio-när als Alar-
-
+[18]
 Underfull \hbox (badness 10000) in paragraph at lines 21--23
 
 
@@ -526,12 +532,16 @@ Type  H <return>  for immediate help.
 l.30 
      
 
+Overfull \hbox (29.46223pt too wide) in paragraph at lines 31--32
+\OT1/phv/m/n/10.95 sche Pro-dukt-ge-stal-tung be-zeich-net. Das Ziel ist da-bei
+, ein Ger[]ausch oder ei-ne Ger[]auschkulisse
+
 Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
-[18 <./bilder/fraunhofer_akustik.png>]
+[19 <./bilder/fraunhofer_akustik.png>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -541,21 +551,18 @@ Type  H <return>  for immediate help.
                                                   
 l.62 
      
-) [19 <./bilder/dom-unt-bild.png>] (./07_Umsetzung.tex [20]
+) [20 <./bilder/dom-unt-bild.png>] (./07_Umsetzung.tex [21]
 Kapitel 7.
 
-Overfull \hbox (3.71959pt too wide) in paragraph at lines 4--4
-|\T1/EBGaramond-OsF/regular/n/24.88 Umsetzung - be-wuss-tes An-spre-chen von Em
-o-
+Overfull \hbox (17.68637pt too wide) in paragraph at lines 4--4
+|\OT1/phv/m/n/24.88 Umsetzung - be-wuss-tes An-spre-chen von
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--12
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 13--23
 
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
-
+[22]
 
 Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                At least 32.99352pt needed,
@@ -565,11 +572,13 @@ Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                e.g., setting geometry's option
 (scrlayer-scrpage)                `head=32.99352pt'.
 (scrlayer-scrpage)                I'll also decrease \topmargin on input line 2
-5.
+3.
 
 
 Overfull \vbox (10.99352pt too high) has occurred while \output is active
-[22]
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
 
 ! LaTeX Error: There's no line here to end.
 
@@ -582,6 +591,7 @@ l.32
 
 Underfull \hbox (badness 10000) in paragraph at lines 33--35
 
+[24]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -591,7 +601,6 @@ Type  H <return>  for immediate help.
                                                   
 l.43 
      
-[23]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -604,10 +613,9 @@ l.50
 
 Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
-
+[25 <./bilder/contrast-gelassenheit.png> <./bilder/contrast-box.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
-[24 <./bilder/contrast-gelassenheit.png> <./bilder/contrast-box.png>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -620,6 +628,7 @@ l.63
 
 Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
+[26 <./bilder/adobecolor.png>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -629,7 +638,6 @@ Type  H <return>  for immediate help.
                                                   
 l.72 
      
-[25 <./bilder/adobecolor.png>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -639,11 +647,11 @@ Type  H <return>  for immediate help.
                                                   
 l.79 
      
-[26 <./bilder/website-gelassen.png> <./bilder/website-gelassen-hover.png>]
-Overfull \hbox (6.41759pt too wide) in paragraph at lines 82--82
-|[]\T1/EBGaramond-OsF/regular/n/14.4 Webseite - be-wuss-tes Ein-set-zen der Ele
--men-te für die In-du-zie-rung von Nost-
-[27]
+[27 <./bilder/website-gelassen.png>] [28 <./bilder/website-gelassen-hover.png>]
+[29]
+Overfull \hbox (18.69685pt too wide) in paragraph at lines 87--87
+|[]\OT1/phv/m/n/14.4 Webseite - be-wuss-tes Ein-set-zen von ne-ga-ti-ven Emo-ti
+o-nen Stress
 
 ! LaTeX Error: There's no line here to end.
 
@@ -662,10 +670,13 @@ Type  H <return>  for immediate help.
                                                   
 l.105 
       
+[30 <./bilder/contrast.png>]
+Overfull \hbox (1.28418pt too wide) in paragraph at lines 107--109
+\OT1/phv/m/n/10.95 Um den Nut-zer un-ter Druck zu set-zen und ein Han-deln zu f
+or-cie-ren, wur-den haupts[]achlich
 
 Underfull \hbox (badness 10000) in paragraph at lines 107--109
 
-[28 <./bilder/contrast.png> <./bilder/name-bin-dabei.png>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -687,8 +698,7 @@ Type  H <return>  for immediate help.
                                                   
 l.129 
       
-[29 <./bilder/schrift-freie-plaÌˆtze3.png> <./bilder/schrift-freie-plaÌˆtze1.pn
-g>]
+[31 <./bilder/name-bin-dabei.png> <./bilder/schrift-freie-plaÌˆtze3.png>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -707,6 +717,7 @@ Type  H <return>  for immediate help.
                                                   
 l.150 
       
+[32 <./bilder/schrift-freie-plaÌˆtze1.png> <./bilder/rot-dabei.png>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -719,7 +730,7 @@ l.158
 
 Underfull \hbox (badness 10000) in paragraph at lines 161--162
 
-[30 <./bilder/rot-dabei.png> <./bilder/ekelhaft.png> <./bilder/na-endlich.png>]
+[33 <./bilder/ekelhaft.png> <./bilder/na-endlich.png>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -738,18 +749,16 @@ Type  H <return>  for immediate help.
                                                   
 l.176 
       
-[31 <./bilder/angst1.png> <./bilder/angst2.png>]) [32]
-(./08_Zusammenfassung.tex
+[34 <./bilder/angst1.png> <./bilder/angst2.png>]) [35]
+(./09_Technische_Umsetzung.tex
 Kapitel 8.
-) [33] (./09_Technische_Umsetzung.tex
-Kapitel 9.
-
-Overfull \hbox (0.8651pt too wide) in paragraph at lines 5--6
-\T1/EBGaramond-OsF/regular/n/10.95 dar-auf aus-ge-rich-tet, die Ent-wick-lung v
-on be-nut-zer-freund-li-chen und re-ak-ti-ons-fä-hi-gen UI-Komponenten
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
+
+Overfull \hbox (7.27852pt too wide) in paragraph at lines 7--8
+[]\OT1/phv/m/n/10.95 Reacts Kern be-steht aus ver-schie-de-nen Kom-po-nen-ten, 
+wo-durch die UI in un-abh[]angige,
 
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
@@ -757,51 +766,69 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
 
-Overfull \hbox (28.96416pt too wide) in paragraph at lines 11--12
-\T1/EBGaramond-OsF/regular/n/10.95 mein-schaft ha-ben Re-act zu ei-ner der be-v
-or-zug-ten Op-tio-nen für die Ent-wick-lung von Front-End-Anwendungen
-
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
-(/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmtt.fd)
+[36] (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/ot1lmtt.fd)
+Overfull \hbox (1.67047pt too wide) in paragraph at lines 17--26
+\OT1/phv/m/n/10.95 die f[]ur die vi-su-el-le Ge-stal-tung von HTML-Dokumenten g
+e-nutzt wird. Durch die Ausf[]uhrung
+
+Overfull \hbox (11.25832pt too wide) in paragraph at lines 17--26
+\OT1/phv/m/n/10.95 Die Klas-sen '.in-put1' und '.in-put1:focus' le-gen das Aus-
+se-hen von Ein-ga-be-fel-dern im Normal-
+
+Overfull \hbox (10.53731pt too wide) in paragraph at lines 17--26
+\OT1/phv/m/n/10.95 Die '[][]\OT1/lmtt/m/n/10.95 .table1[]\OT1/phv/m/n/10.95 '-K
+lasse mo-di-fi-ziert das Er-schei-nungs-bild ei-ner Ta-bel-le, w[]ahrend die '[
+][]\OT1/lmtt/m/n/10.95 .label1[]\OT1/phv/m/n/10.95 '-
+
 Underfull \hbox (badness 10000) in paragraph at lines 17--26
 
-[34]
+
+Overfull \hbox (33.885pt too wide) in paragraph at lines 28--34
+\OT1/phv/m/n/10.95 der mit-ge-brach-ten Ge-genst[]ande der Grill-par-ty ver-wal
+-tet. In der Haupt-kom-po-nen-te '[][]\OT1/lmtt/m/n/10.95 EmoticonOne[]\OT1/phv
+/m/n/10.95 '
+
+Overfull \hbox (19.6804pt too wide) in paragraph at lines 28--34
+\OT1/phv/m/n/10.95 'par-ty-I-tems', der die mit-ge-brach-ten Ge-genst[]ande spe
+i-chert, und '[][]\OT1/lmtt/m/n/10.95 inputName[]\OT1/phv/m/n/10.95 ' und '[][]
+\OT1/lmtt/m/n/10.95 inputItem[]\OT1/phv/m/n/10.95 ',
+
+Overfull \hbox (16.31097pt too wide) in paragraph at lines 28--34
+\OT1/phv/m/n/10.95 die den ak-tu-el-len Tex-tein-ga-be-wert der Ein-ga-be-fel-d
+er spei-chern. Die Funk-ti-on '[][]\OT1/lmtt/m/n/10.95 setInputName[]\OT1/phv/m
+/n/10.95 '
+
 Underfull \hbox (badness 10000) in paragraph at lines 28--34
 
-[35]
-Overfull \hbox (18.1202pt too wide) in paragraph at lines 37--46
-\T1/EBGaramond-OsF/regular/n/10.95 Schlieÿlich wird die Un-ter-gren-ze des letz
--ten Ele-ments ei-ner [][]\T1/lmtt/m/n/10.95 .table-row []\T1/EBGaramond-OsF/re
-gular/n/10.95 und ei-nes [][]\T1/lmtt/m/n/10.95 .row-sub-container
+[37]
+Overfull \hbox (71.61566pt too wide) in paragraph at lines 37--46
+\OT1/phv/m/n/10.95 Schlie^^Ylich wird die Un-ter-gren-ze des letz-ten Ele-ments
+ ei-ner [][]\OT1/lmtt/m/n/10.95 .table-row []\OT1/phv/m/n/10.95 und ei-nes [][]
+\OT1/lmtt/m/n/10.95 .row-sub-container
 
 Underfull \hbox (badness 10000) in paragraph at lines 37--46
 
-[36]
-Overfull \hbox (18.3064pt too wide) in paragraph at lines 49--54
-\T1/EBGaramond-OsF/regular/n/10.95 men der Per-son und den mit-ge-brach-ten Ar-
-ti-kel dar-stel-len. Die-se wer-den durch die Aus-drücke [][]\T1/lmtt/m/n/10.95
- {item.name}
-
+[38] [39]
 Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
 
-Overfull \hbox (13.949pt too wide) in paragraph at lines 59--65
-\T1/EBGaramond-OsF/regular/n/10.95 Die [][]\T1/lmtt/m/n/10.95 .videoNostalgie [
-]\T1/EBGaramond-OsF/regular/n/10.95 Klas-se stellt spe-zi-fi-sche Stil-de-fi-ni
--tio-nen für ein Vi-deo be-reit, ein-schlieÿ-lich Randra-
-[37]
-Overfull \hbox (2.64168pt too wide) in paragraph at lines 67--72
-\T1/EBGaramond-OsF/regular/n/10.95 wird mit Ty-pe-S-cript ge-schrie-ben, was du
-rch die Ver-wen-dung von Ty-pen wie [][]\T1/lmtt/m/n/10.95 ReactElement[]\T1/EB
-Garamond-OsF/regular/n/10.95 , [][]\T1/lmtt/m/n/10.95 useState
+Overfull \hbox (4.12433pt too wide) in paragraph at lines 59--65
+\OT1/phv/m/n/10.95 us und Box-Sizing. []Ahnlich wird f[]ur die [][]\OT1/lmtt/m/
+n/10.95 input[type="submit"] []\OT1/phv/m/n/10.95 Ele-men-te ei-ne vollst[]andi
+ge
 
+Overfull \hbox (7.38348pt too wide) in paragraph at lines 59--65
+\OT1/phv/m/n/10.95 Sti-li-sie-rung de-fi-niert, ein-schlie^^Y-lich der Hover-Ef
+fekte, die die Hin-ter-grund-far-be auf [][]\OT1/lmtt/m/n/10.95 #45a049
+[40]
 Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
-[38]
+
 Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
 
@@ -814,14 +841,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--80
 Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
 
-Overfull \hbox (9.67247pt too wide) in paragraph at lines 81--82
-[][][]\T1/lmtt/m/n/10.95 row-item[]\T1/EBGaramond-OsF/regular/n/10.95 : Die-se 
-Klas-se be-zieht sich auf ein-zel-ne Ele-men-te in ei-ner Zei-le. Sie setzt das
- Flex-Verhältnis
-
 Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
-
+[41]
 Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
 
@@ -831,11 +853,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--84
 Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
 
-Overfull \hbox (15.16487pt too wide) in paragraph at lines 85--86
-[][][]\T1/lmtt/m/n/10.95 .table-row:last-child []\T1/EBGaramond-OsF/regular/n/1
-0.95 und [][]\T1/lmtt/m/n/10.95 .row-sub-container .row-item:last-child[]\T1/EB
-Garamond-OsF/regular/n/10.95 : Die-se Klas-
-[39]
 Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
 
@@ -844,7 +861,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
 Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
-
+[42]
 Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
 
@@ -854,29 +871,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--100
 Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
 
-Overfull \hbox (8.16678pt too wide) in paragraph at lines 106--107
-[][][]\T1/lmtt/m/n/10.95 .input3[type="text"] []\T1/EBGaramond-OsF/regular/n/10
-.95 und [][]\T1/lmtt/m/n/10.95 .input3[type="submit"][]\T1/EBGaramond-OsF/regul
-ar/n/10.95 : Die-se Se-lek-to-ren zie-len auf [][]\T1/lmtt/m/n/10.95 input[]\T1
-/EBGaramond-OsF/regular/n/10.95 -
+Overfull \hbox (1.41896pt too wide) in paragraph at lines 106--107
+[][][]\OT1/lmtt/m/n/10.95 .input3[type="text"] []\OT1/phv/m/n/10.95 und [][]\OT
+1/lmtt/m/n/10.95 .input3[type="submit"][]\OT1/phv/m/n/10.95 : Die-se Se-lek-to-
+ren zie-len auf
 
 Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
-[40]
+
 Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
 
-Overfull \hbox (6.72577pt too wide) in paragraph at lines 109--110
-[][][]\T1/lmtt/m/n/10.95 @keyframes fadeInOutAnimation []\T1/EBGaramond-OsF/reg
-ular/n/10.95 und [][]\T1/lmtt/m/n/10.95 @keyframes slide[]\T1/EBGaramond-OsF/re
-gular/n/10.95 : Die-se sind CSS-Animationen,
+Overfull \hbox (30.32681pt too wide) in paragraph at lines 109--110
+[][][]\OT1/lmtt/m/n/10.95 @keyframes fadeInOutAnimation []\OT1/phv/m/n/10.95 un
+d [][]\OT1/lmtt/m/n/10.95 @keyframes slide[]\OT1/phv/m/n/10.95 : Die-se sind CS
+S-Animationen,
 
 Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
-
+[43]
 Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
 
@@ -891,7 +907,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
 Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
-[41]
+
 Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
 
@@ -900,59 +916,56 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
 Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
-
-Overfull \hbox (9.71295pt too wide) in paragraph at lines 123--124
-[][][]\T1/lmtt/m/n/10.95 row-item[]\T1/EBGaramond-OsF/regular/n/10.95 : De-fi-n
-iert das Lay-out je-des Ele-ments in ei-ner Zei-le. Je-des Ele-ment wird als Fl
-ex-Container
-
+[44]
 Underfull \hbox (badness 10000) in paragraph at lines 123--124
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
 
-Overfull \hbox (3.60175pt too wide) in paragraph at lines 130--132
-\T1/EBGaramond-OsF/regular/n/10.95 Die Kom-po-nen-te [][]\T1/lmtt/m/n/10.95 Emo
-ticonThree []\T1/EBGaramond-OsF/regular/n/10.95 ist ein funk-tio-na-ler React-K
-omponente. Sie be-nutzt den [][]\T1/lmtt/m/n/10.95 useState[]\T1/EBGaramond-OsF
-/regular/n/10.95 -
-
 Underfull \hbox (badness 10000) in paragraph at lines 130--132
 
 
-Overfull \hbox (53.34851pt too wide) in paragraph at lines 133--134
-\T1/EBGaramond-OsF/regular/n/10.95 ver-wal-ten, dar-un-ter [][]\T1/lmtt/m/n/10.
-95 partyItems[]\T1/EBGaramond-OsF/regular/n/10.95 , [][]\T1/lmtt/m/n/10.95 inpu
-tName[]\T1/EBGaramond-OsF/regular/n/10.95 , [][]\T1/lmtt/m/n/10.95 inputItem[]\
-T1/EBGaramond-OsF/regular/n/10.95 , [][]\T1/lmtt/m/n/10.95 timeEnded[]\T1/EBGar
-amond-OsF/regular/n/10.95 , [][]\T1/lmtt/m/n/10.95 textChange[]\T1/EBGaramond-O
-sF/regular/n/10.95 , [][]\T1/lmtt/m/n/10.95 btnPressAmount
+Overfull \hbox (24.88141pt too wide) in paragraph at lines 133--134
+[]\OT1/phv/m/n/10.95 **Zustandsverwaltung:** Die-se Kom-po-nen-te ver-wen-det [
+][]\OT1/lmtt/m/n/10.95 useState[]\OT1/phv/m/n/10.95 , um meh-re-re Zust[]ande
+
+Overfull \hbox (4.21257pt too wide) in paragraph at lines 133--134
+\OT1/phv/m/n/10.95 zu ver-wal-ten, dar-un-ter [][]\OT1/lmtt/m/n/10.95 partyItem
+s[]\OT1/phv/m/n/10.95 , [][]\OT1/lmtt/m/n/10.95 inputName[]\OT1/phv/m/n/10.95 ,
+ [][]\OT1/lmtt/m/n/10.95 inputItem[]\OT1/phv/m/n/10.95 , [][]\OT1/lmtt/m/n/10.9
+5 timeEnded[]\OT1/phv/m/n/10.95 , [][]\OT1/lmtt/m/n/10.95 textChange[]\OT1/phv/
+m/n/10.95 ,
 
 Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
 
-Overfull \hbox (0.89833pt too wide) in paragraph at lines 134--135
-[]\T1/EBGaramond-OsF/regular/n/10.95 **Recoil-Zustandsverwaltung:** Die Kom-po-
-nen-te ver-wen-det Re-coil zur Zu-stands-ver-wal-tung. Re-
-
 Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
-[42]
+
+Overfull \hbox (15.14761pt too wide) in paragraph at lines 135--136
+[]\OT1/phv/m/n/10.95 **Effekte:** Es gibt einen [][]\OT1/lmtt/m/n/10.95 useEffe
+ct[]\OT1/phv/m/n/10.95 -Hook, der ei-ne Funk-ti-on auf-ruft, wenn [][]\OT1/lmtt
+/m/n/10.95 textChange
+
 Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
+
+Overfull \hbox (16.07779pt too wide) in paragraph at lines 136--137
+[]\OT1/phv/m/n/10.95 **Ende der Zeit:** Die Funk-ti-on [][]\OT1/lmtt/m/n/10.95 
+endOfTime []\OT1/phv/m/n/10.95 wird auf-ge-ru-fen, um den Zu-stand [][]\OT1/lmt
+t/m/n/10.95 timeEnded
 
 Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
 
-Overfull \hbox (0.1092pt too wide) in paragraph at lines 137--138
-[]\T1/EBGaramond-OsF/regular/n/10.95 **Button pres-sed:** Die Funk-ti-on [][]\T
-1/lmtt/m/n/10.95 buttonPressed []\T1/EBGaramond-OsF/regular/n/10.95 ent-hält ei
--ne Lo-gik, die aus-ge-führt wird, wenn
+Overfull \hbox (4.83595pt too wide) in paragraph at lines 137--138
+\OT1/phv/m/n/10.95 wird, wenn ein Be-nut-zer auf den But-ton klickt. Sie ak-tua
+-li-siert ver-schie-de-ne Zust[]ande
 
 Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
-
+[45]
 Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
 
@@ -962,41 +975,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--147
 Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
 
-Overfull \hbox (16.1526pt too wide) in paragraph at lines 148--149
-[]\T1/EBGaramond-OsF/regular/n/10.95 Zeile 5-8: De-fi-ni-ti-on der [][]\T1/lmtt
-/m/n/10.95 TableProps[]\T1/EBGaramond-OsF/regular/n/10.95 -Typdefinition. Sie e
-nt-hält ein Ar-ray von [][]\T1/lmtt/m/n/10.95 PartyItem[]\T1/EBGaramond-OsF/reg
-ular/n/10.95 -Objekten
+Overfull \hbox (14.58388pt too wide) in paragraph at lines 148--149
+[]\OT1/phv/m/n/10.95 Zeile 5-8: De-fi-ni-ti-on der [][]\OT1/lmtt/m/n/10.95 Tabl
+eProps[]\OT1/phv/m/n/10.95 -Typdefinition. Sie enth[]alt ein Ar-ray von [][]\OT
+1/lmtt/m/n/10.95 PartyItem[]\OT1/phv/m/n/10.95 -
 
 Underfull \hbox (badness 10000) in paragraph at lines 148--149
 
-[43]
+
 Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
-
-Overfull \hbox (11.71353pt too wide) in paragraph at lines 150--151
-[]\T1/EBGaramond-OsF/regular/n/10.95 Zeile 12: Be-ginn der render-Methode. Es g
-ibt einen div-Container mit der Klas-se [][]\T1/lmtt/m/n/10.95 table-container
 
 Underfull \hbox (badness 10000) in paragraph at lines 150--151
 
 
-Overfull \hbox (8.07053pt too wide) in paragraph at lines 151--152
-[]\T1/EBGaramond-OsF/regular/n/10.95 Zeile 13-16: In-ner-halb des [][]\T1/lmtt/
-m/n/10.95 table-container []\T1/EBGaramond-OsF/regular/n/10.95 gibt es ei-ne Ko
-pf-zei-le mit zwei [][]\T1/lmtt/m/n/10.95 row-item[]\T1/EBGaramond-OsF/regular/
-n/10.95 -Elementen
+Overfull \hbox (10.79129pt too wide) in paragraph at lines 151--152
+[]\OT1/phv/m/n/10.95 Zeile 13-16: In-ner-halb des [][]\OT1/lmtt/m/n/10.95 table
+-container []\OT1/phv/m/n/10.95 gibt es ei-ne Kopf-zei-le mit zwei [][]\OT1/lmt
+t/m/n/10.95 row-item[]\OT1/phv/m/n/10.95 -
 
 Underfull \hbox (badness 10000) in paragraph at lines 151--152
 
-
-Overfull \hbox (13.63957pt too wide) in paragraph at lines 152--153
-[]\T1/EBGaramond-OsF/regular/n/10.95 Zeile 17-22: Für je-des [][]\T1/lmtt/m/n/1
-0.95 item []\T1/EBGaramond-OsF/regular/n/10.95 im [][]\T1/lmtt/m/n/10.95 items[
-]\T1/EBGaramond-OsF/regular/n/10.95 -Array wird ei-ne Zei-le er-stellt. Je-de Z
-ei-le ent-hält zwei [][]\T1/lmtt/m/n/10.95 row-item[]\T1/EBGaramond-OsF/regular
-/n/10.95 -
-
+[46]
 Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
 
@@ -1012,14 +1012,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 163--164
 Underfull \hbox (badness 10000) in paragraph at lines 164--165
 
 
-Overfull \hbox (16.49983pt too wide) in paragraph at lines 165--166
-\T1/EBGaramond-OsF/regular/n/10.95 gen und gibt ein [][]\T1/lmtt/m/n/10.95 Reac
-tElement []\T1/EBGaramond-OsF/regular/n/10.95 zu-rück. Die-se Funk-ti-on ist fü
-r das Ren-dern der Home-Komponente
-
 Underfull \hbox (badness 10000) in paragraph at lines 165--166
 
-[44]
+
 Underfull \hbox (badness 10000) in paragraph at lines 166--167
 
 
@@ -1028,45 +1023,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
 Underfull \hbox (badness 10000) in paragraph at lines 168--169
 
-
+[47]
 Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 170--171
 
-) (./99_Projektabschnitte.tex [45])
+) (./08_Zusammenfassung.tex [48]
+Kapitel 9.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
+
+) [49] (./99_Projektabschnitte.tex) [50]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 135.
+(hyperref)                be the same. Added a new anchor on input line 138.
 
+
+Overfull \hbox (7.47368pt too wide) in paragraph at lines 150--150
+[]\OT1/phv/m/n/10.95 Liebl, D. A. (n. d.). Ru-he, Klang und H[]orsamkeit { Psy-
+choakus-ti-sche Grund-la-gen. Verf[]ugbar
 pdfTeX warning (ext4): destination with the same identifier (name{page.II}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.138 \addcontentsline
-                      {toc}{section}{\listtablename} [2]
-Overfull \hbox (13.20367pt too wide) in paragraph at lines 147--147
-[]\T1/EBGaramond-OsF/regular/n/10.95 T. van Gorp, \T1/EBGaramond-OsF/regular/it
-/10.95 Emo-tio-nal de-sign with A.C.T. - part 1\T1/EBGaramond-OsF/regular/n/10.
-95 , Ju-ni 2013. Adres-se: []$\T1/lmtt/m/n/10.95 https : / / boxesandarrows .
-
-Overfull \hbox (21.56761pt too wide) in paragraph at lines 147--147
-\T1/EBGaramond-OsF/regular/n/10.95 2003. \T1/EBGaramond-OsF/regular/sc/10.95 do
-i\T1/EBGaramond-OsF/regular/n/10.95 : []$\T1/lmtt/m/n/10.95 10 . 1201 / 9780203
-608173$[]\T1/EBGaramond-OsF/regular/n/10.95 . Adres-se: []$\T1/lmtt/m/n/10.95 h
-ttps : / / doi . org / 10 . 1201 / 9780203608173$[]\T1/EBGaramond-OsF/regular/n
-/10.95 . 
-[3] [4] (./dokumentation.lof [5]) [6] (./dokumentation.aux) )
+l.150 \pagebreak
+                 [2]pdfTeX warning (ext4): destination with the same identifier
+ (name{page.III}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.151 \listoffigures
+                     [3] (./dokumentation.lof [4]) [5] (./dokumentation.aux) )
 (see the transcript file for additional information){/usr/local/texlive/2021/te
-xmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2021/texmf-dist/fonts
-/enc/dvips/ebgaramond/ebgm_ljow5q.enc}{/usr/local/texlive/2021/texmf-dist/fonts
-/enc/dvips/ebgaramond/ebgm_ld6df2.enc}{/usr/local/texlive/2021/texmf-dist/fonts
-/enc/dvips/ebgaramond/ebgm_tcdnmr.enc}{/usr/local/texlive/2021/texmf-dist/fonts
-/enc/dvips/ebgaramond/ebgm_byuyni.enc}</usr/local/texlive/2021/texmf-dist/fonts
-/type1/public/ebgaramond/EBGaramond-Bold.pfb></usr/local/texlive/2021/texmf-dis
-t/fonts/type1/public/ebgaramond/EBGaramond-Italic.pfb></usr/local/texlive/2021/
-texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Regular.pfb></usr/local/tex
-live/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on dokumentation.pdf (53 pages, 7470040 bytes).
+xmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/local/texlive/2021/texmf-dist/fon
+ts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public
+/lm/lmtt10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhv
+b8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb
+></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on dokumentation.pdf (58 pages, 7192323 bytes).
 SyncTeX written on dokumentation.synctex.gz.
 Transcript written on dokumentation.log.
