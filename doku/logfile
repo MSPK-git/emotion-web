@@ -377,16 +377,12 @@ Type  H <return>  for immediate help.
                                                   
 l.24 
      
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--29
-
-[7 <./bilder/russell1.png> <./bilder/russell2.png>]) [8] [9]
-(./04_Verwendung.tex
+) [7 <./bilder/russell1.png> <./bilder/russell2.png>] (./04_Verwendung.tex
 Kapitel 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
-[10]
+[8]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -417,7 +413,7 @@ Type  H <return>  for immediate help.
                                                   
 l.36 \section
              {Angst, Ãœberraschung, Wut}
-[11 <./bilder/sad-happy.png> <./bilder/dom.png>]) [12 <./bilder/unt.png>]
+[9 <./bilder/sad-happy.png> <./bilder/dom.png>]) [10 <./bilder/unt.png>]
 (./05_Beziehung_Konflikt.tex
 Kapitel 5.
 
@@ -436,7 +432,7 @@ Type  H <return>  for immediate help.
                                                   
 l.21 
      
-[13]
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
 
@@ -445,7 +441,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
 Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
-[14 <./bilder/goethe.jpg>]
+[12 <./bilder/goethe.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
 
@@ -457,7 +453,7 @@ Type  H <return>  for immediate help.
                                                   
 l.36 
      
-[15 <./bilder/farbkreis.png>] [16]
+[13 <./bilder/farbkreis.png>] [14]
 Underfull \hbox (badness 10000) in paragraph at lines 45--47
 
 
@@ -475,7 +471,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
 Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
-[17 <./bilder/motivationsquadranten.png>]
+[15 <./bilder/motivationsquadranten.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
 
@@ -493,7 +489,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
 Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
-) [18] (./06_Einfluss.tex
+) [16] (./06_Einfluss.tex
 Kapitel 6.
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
@@ -513,7 +509,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
 Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
-[19]
+[17]
 Overfull \hbox (0.49278pt too wide) in paragraph at lines 21--23
 \T1/EBGaramond-OsF/regular/n/10.95 her-vor-ge-ru-fe-nen Hör-wahr-neh-mung be-sc
 häf-tigt, heiÿt Psy-choakus-tik. Da das Ge-hör evo-lu-tio-när als Alar-
@@ -535,7 +531,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
 Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
-[20 <./bilder/fraunhofer_akustik.png>]
+[18 <./bilder/fraunhofer_akustik.png>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -545,29 +541,20 @@ Type  H <return>  for immediate help.
                                                   
 l.62 
      
-) [21 <./bilder/dom-unt-bild.png>] (./07_Umsetzung.tex [22]
+) [19 <./bilder/dom-unt-bild.png>] (./07_Umsetzung.tex [20]
 Kapitel 7.
 
 Overfull \hbox (3.71959pt too wide) in paragraph at lines 4--4
 |\T1/EBGaramond-OsF/regular/n/24.88 Umsetzung - be-wuss-tes An-spre-chen von Em
 o-
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--16
-
-[23]
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
+Underfull \hbox (badness 10000) in paragraph at lines 9--12
 
 
-! LaTeX Error: There's no line here to end.
+Underfull \hbox (badness 10000) in paragraph at lines 13--23
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.25 
-     
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--28
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
 
 Package scrlayer-scrpage Warning: \headheight to low.
@@ -578,11 +565,11 @@ Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                e.g., setting geometry's option
 (scrlayer-scrpage)                `head=32.99352pt'.
 (scrlayer-scrpage)                I'll also decrease \topmargin on input line 2
-8.
+5.
 
 
 Overfull \vbox (10.99352pt too high) has occurred while \output is active
-[24]
+[22]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -590,8 +577,11 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.36 
+l.32 
      
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
+
 
 ! LaTeX Error: There's no line here to end.
 
@@ -601,12 +591,7 @@ Type  H <return>  for immediate help.
                                                   
 l.43 
      
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
-
-[25 <./bilder/contrast-gelassenheit.png> <./bilder/contrast-box.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
-
+[23]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -614,11 +599,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.56 
+l.50 
      
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+
+[24 <./bilder/contrast-gelassenheit.png> <./bilder/contrast-box.png>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -626,9 +615,11 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.65 
+l.63 
      
-[26 <./bilder/adobecolor.png>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+
 
 ! LaTeX Error: There's no line here to end.
 
@@ -638,11 +629,7 @@ Type  H <return>  for immediate help.
                                                   
 l.72 
      
-[27 <./bilder/website-gelassen.png> <./bilder/website-gelassen-hover.png>]
-Overfull \hbox (6.41759pt too wide) in paragraph at lines 75--75
-|[]\T1/EBGaramond-OsF/regular/n/14.4 Webseite - be-wuss-tes Ein-set-zen der Ele
--men-te für die In-du-zie-rung von Nost-
-[28]
+[25 <./bilder/adobecolor.png>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -650,8 +637,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.91 
+l.79 
      
+[26 <./bilder/website-gelassen.png> <./bilder/website-gelassen-hover.png>]
+Overfull \hbox (6.41759pt too wide) in paragraph at lines 82--82
+|[]\T1/EBGaramond-OsF/regular/n/14.4 Webseite - be-wuss-tes Ein-set-zen der Ele
+-men-te für die In-du-zie-rung von Nost-
+[27]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -662,9 +654,18 @@ Type  H <return>  for immediate help.
 l.98 
      
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--102
+! LaTeX Error: There's no line here to end.
 
-[29 <./bilder/contrast.png> <./bilder/name-bin-dabei.png>]
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.105 
+      
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--109
+
+[28 <./bilder/contrast.png> <./bilder/name-bin-dabei.png>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -672,10 +673,10 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.110 
+l.117 
       
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--114
+Underfull \hbox (badness 10000) in paragraph at lines 119--121
 
 
 ! LaTeX Error: There's no line here to end.
@@ -684,9 +685,9 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.122 
+l.129 
       
-[30 <./bilder/schrift-freie-plaÌˆtze3.png> <./bilder/schrift-freie-plaÌˆtze1.pn
+[29 <./bilder/schrift-freie-plaÌˆtze3.png> <./bilder/schrift-freie-plaÌˆtze1.pn
 g>]
 
 ! LaTeX Error: There's no line here to end.
@@ -695,7 +696,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.133 
+l.140 
       
 
 ! LaTeX Error: There's no line here to end.
@@ -704,7 +705,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.143 
+l.150 
       
 
 ! LaTeX Error: There's no line here to end.
@@ -713,21 +714,12 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.151 
+l.158 
       
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
 
-[31 <./bilder/rot-dabei.png> <./bilder/ekelhaft.png> <./bilder/na-endlich.png>]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.162 
-      
+[30 <./bilder/rot-dabei.png> <./bilder/ekelhaft.png> <./bilder/na-endlich.png>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -737,10 +729,19 @@ Type  H <return>  for immediate help.
                                                   
 l.169 
       
-[32 <./bilder/angst1.png> <./bilder/angst2.png>]) [33]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 
+      
+[31 <./bilder/angst1.png> <./bilder/angst2.png>]) [32]
 (./08_Zusammenfassung.tex
 Kapitel 8.
-) [34] (./09_Technische_Umsetzung.tex
+) [33] (./09_Technische_Umsetzung.tex
 Kapitel 9.
 
 Overfull \hbox (0.8651pt too wide) in paragraph at lines 5--6
@@ -765,10 +766,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmtt.fd)
 Underfull \hbox (badness 10000) in paragraph at lines 17--26
 
-[35]
+[34]
 Underfull \hbox (badness 10000) in paragraph at lines 28--34
 
-[36]
+[35]
 Overfull \hbox (18.1202pt too wide) in paragraph at lines 37--46
 \T1/EBGaramond-OsF/regular/n/10.95 Schlieÿlich wird die Un-ter-gren-ze des letz
 -ten Ele-ments ei-ner [][]\T1/lmtt/m/n/10.95 .table-row []\T1/EBGaramond-OsF/re
@@ -776,7 +777,7 @@ gular/n/10.95 und ei-nes [][]\T1/lmtt/m/n/10.95 .row-sub-container
 
 Underfull \hbox (badness 10000) in paragraph at lines 37--46
 
-[37]
+[36]
 Overfull \hbox (18.3064pt too wide) in paragraph at lines 49--54
 \T1/EBGaramond-OsF/regular/n/10.95 men der Per-son und den mit-ge-brach-ten Ar-
 ti-kel dar-stel-len. Die-se wer-den durch die Aus-drücke [][]\T1/lmtt/m/n/10.95
@@ -789,7 +790,7 @@ Overfull \hbox (13.949pt too wide) in paragraph at lines 59--65
 \T1/EBGaramond-OsF/regular/n/10.95 Die [][]\T1/lmtt/m/n/10.95 .videoNostalgie [
 ]\T1/EBGaramond-OsF/regular/n/10.95 Klas-se stellt spe-zi-fi-sche Stil-de-fi-ni
 -tio-nen für ein Vi-deo be-reit, ein-schlieÿ-lich Randra-
-[38]
+[37]
 Overfull \hbox (2.64168pt too wide) in paragraph at lines 67--72
 \T1/EBGaramond-OsF/regular/n/10.95 wird mit Ty-pe-S-cript ge-schrie-ben, was du
 rch die Ver-wen-dung von Ty-pen wie [][]\T1/lmtt/m/n/10.95 ReactElement[]\T1/EB
@@ -800,7 +801,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
 Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
-[39]
+[38]
 Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
 
@@ -834,7 +835,7 @@ Overfull \hbox (15.16487pt too wide) in paragraph at lines 85--86
 [][][]\T1/lmtt/m/n/10.95 .table-row:last-child []\T1/EBGaramond-OsF/regular/n/1
 0.95 und [][]\T1/lmtt/m/n/10.95 .row-sub-container .row-item:last-child[]\T1/EB
 Garamond-OsF/regular/n/10.95 : Die-se Klas-
-[40]
+[39]
 Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
 
@@ -861,7 +862,7 @@ ar/n/10.95 : Die-se Se-lek-to-ren zie-len auf [][]\T1/lmtt/m/n/10.95 input[]\T1
 
 Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
-[41]
+[40]
 Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
 
@@ -890,7 +891,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
 Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
-[42]
+[41]
 Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
 
@@ -937,7 +938,7 @@ nen-te ver-wen-det Re-coil zur Zu-stands-ver-wal-tung. Re-
 
 Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
-[43]
+[42]
 Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
 
@@ -969,7 +970,7 @@ ular/n/10.95 -Objekten
 
 Underfull \hbox (badness 10000) in paragraph at lines 148--149
 
-[44]
+[43]
 Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
 
@@ -1018,7 +1019,7 @@ r das Ren-dern der Home-Komponente
 
 Underfull \hbox (badness 10000) in paragraph at lines 165--166
 
-[45]
+[44]
 Underfull \hbox (badness 10000) in paragraph at lines 166--167
 
 
@@ -1033,7 +1034,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
 Underfull \hbox (badness 10000) in paragraph at lines 170--171
 
-) (./99_Projektabschnitte.tex [46])
+) (./99_Projektabschnitte.tex [45])
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 135.
@@ -1066,6 +1067,6 @@ xmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2021/texmf-dist/fonts
 t/fonts/type1/public/ebgaramond/EBGaramond-Italic.pfb></usr/local/texlive/2021/
 texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Regular.pfb></usr/local/tex
 live/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on dokumentation.pdf (54 pages, 7470987 bytes).
+Output written on dokumentation.pdf (53 pages, 7470040 bytes).
 SyncTeX written on dokumentation.synctex.gz.
 Transcript written on dokumentation.log.
