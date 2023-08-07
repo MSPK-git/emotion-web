@@ -13,8 +13,8 @@ WARN - legacy month field 'August' in entry 'dom_bsp' is not an integer - this w
 WARN - legacy month field 'August' in entry 'unt_bsp' is not an integer - this will probably not sort properly.
 WARN - legacy month field 'May' in entry 'Schubert2016' is not an integer - this will probably not sort properly.
 WARN - I didn't find a database entry for 'elliot2004' (section 0)
-INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
 INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
 INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
 INFO - No sort tailoring available for locale 'de-DE'
 INFO - Writing 'dokumentation.bbl' with encoding 'UTF-8'
@@ -743,6 +743,10 @@ Kapitel 8.
 ) [34] (./09_Technische_Umsetzung.tex
 Kapitel 9.
 
+Overfull \hbox (0.8651pt too wide) in paragraph at lines 5--6
+\T1/EBGaramond-OsF/regular/n/10.95 dar-auf aus-ge-rich-tet, die Ent-wick-lung v
+on be-nut-zer-freund-li-chen und re-ak-ti-ons-fä-hi-gen UI-Komponenten
+
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
 
@@ -758,75 +762,247 @@ or-zug-ten Op-tio-nen für die Ent-wick-lung von Front-End-Anwendungen
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
-[35]
-Overfull \hbox (3.8572pt too wide) in paragraph at lines 29--36
-\T1/EBGaramond-OsF/regular/n/10.95 Der vor-lie-gen-de Co-de stellt ein in-ter-a
-k-ti-ves, nutzer-zen-trier-tes Mo-dul in Re-act, ei-ner po-pu-lä-ren JavaScript
--
-[36]
-Overfull \hbox (12.59561pt too wide) in paragraph at lines 39--48
-\T1/EBGaramond-OsF/regular/n/10.95 (durch `justify-content: cen-ter`) als auch 
-ver-ti-kal (durch `align-items: cen-ter`), dank der Flexbox-Eigenschaft. 
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmtt.fd)
+Underfull \hbox (badness 10000) in paragraph at lines 17--26
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--48
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 28--34
+
+[36]
+Overfull \hbox (18.1202pt too wide) in paragraph at lines 37--46
+\T1/EBGaramond-OsF/regular/n/10.95 Schlieÿlich wird die Un-ter-gren-ze des letz
+-ten Ele-ments ei-ner [][]\T1/lmtt/m/n/10.95 .table-row []\T1/EBGaramond-OsF/re
+gular/n/10.95 und ei-nes [][]\T1/lmtt/m/n/10.95 .row-sub-container
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--46
 
 [37]
-Overfull \hbox (18.2338pt too wide) in paragraph at lines 51--56
-\T1/EBGaramond-OsF/regular/n/10.95 row`-Divs ent-hält. Die ers-te `table-row` i
-st die Kopf-zei-le der Ta-bel-le, die die Spal-ten "Wer?ünd "Was?"definiert.
-
-Overfull \hbox (4.73943pt too wide) in paragraph at lines 51--56
+Overfull \hbox (18.3064pt too wide) in paragraph at lines 49--54
 \T1/EBGaramond-OsF/regular/n/10.95 men der Per-son und den mit-ge-brach-ten Ar-
-ti-kel dar-stel-len. Die-se wer-den durch die Aus-drücke `item.name`
+ti-kel dar-stel-len. Die-se wer-den durch die Aus-drücke [][]\T1/lmtt/m/n/10.95
+ {item.name}
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
-! You can't use `macro parameter character #' in horizontal mode.
-l.62 ...r-Effekte, die die Hintergrundfarbe auf `#
-                                                  45a049` Ã¤ndern, wenn der ...
 
+Overfull \hbox (13.949pt too wide) in paragraph at lines 59--65
+\T1/EBGaramond-OsF/regular/n/10.95 Die [][]\T1/lmtt/m/n/10.95 .videoNostalgie [
+]\T1/EBGaramond-OsF/regular/n/10.95 Klas-se stellt spe-zi-fi-sche Stil-de-fi-ni
+-tio-nen für ein Vi-deo be-reit, ein-schlieÿ-lich Randra-
 [38]
-Overfull \hbox (0.60696pt too wide) in paragraph at lines 76--87
-\T1/EBGaramond-OsF/regular/n/10.95 9. `row-sub-container .row-item`: Die-se Kla
-s-se be-zieht sich auf `row-item`-Elemente in-ner-halb ei-nes `row-
+Overfull \hbox (2.64168pt too wide) in paragraph at lines 67--72
+\T1/EBGaramond-OsF/regular/n/10.95 wird mit Ty-pe-S-cript ge-schrie-ben, was du
+rch die Ver-wen-dung von Ty-pen wie [][]\T1/lmtt/m/n/10.95 ReactElement[]\T1/EB
+Garamond-OsF/regular/n/10.95 , [][]\T1/lmtt/m/n/10.95 useState
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+
 [39]
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+
+
+Overfull \hbox (9.67247pt too wide) in paragraph at lines 81--82
+[][][]\T1/lmtt/m/n/10.95 row-item[]\T1/EBGaramond-OsF/regular/n/10.95 : Die-se 
+Klas-se be-zieht sich auf ein-zel-ne Ele-men-te in ei-ner Zei-le. Sie setzt das
+ Flex-Verhältnis
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+
+Overfull \hbox (15.16487pt too wide) in paragraph at lines 85--86
+[][][]\T1/lmtt/m/n/10.95 .table-row:last-child []\T1/EBGaramond-OsF/regular/n/1
+0.95 und [][]\T1/lmtt/m/n/10.95 .row-sub-container .row-item:last-child[]\T1/EB
+Garamond-OsF/regular/n/10.95 : Die-se Klas-
+[40]
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
-[40]
-Overfull \hbox (5.1545pt too wide) in paragraph at lines 104--112
-\T1/EBGaramond-OsF/regular/n/10.95 3. `.button-one` und `.button-one[disabled]`
-: Die-se Se-lek-to-ren zie-len auf Ele-men-te mit der Klas-se `.button-
 
-Overfull \hbox (4.01126pt too wide) in paragraph at lines 114--123
-\T1/EBGaramond-OsF/regular/n/10.95 - `table-container`: De-fi-niert das Aus-se-
-hen und das Lay-out der Ta-bel-le. Die Ta-bel-le wird als Flex-Container
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+
+
+Overfull \hbox (8.16678pt too wide) in paragraph at lines 106--107
+[][][]\T1/lmtt/m/n/10.95 .input3[type="text"] []\T1/EBGaramond-OsF/regular/n/10
+.95 und [][]\T1/lmtt/m/n/10.95 .input3[type="submit"][]\T1/EBGaramond-OsF/regul
+ar/n/10.95 : Die-se Se-lek-to-ren zie-len auf [][]\T1/lmtt/m/n/10.95 input[]\T1
+/EBGaramond-OsF/regular/n/10.95 -
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
+
 [41]
-Overfull \hbox (3.38719pt too wide) in paragraph at lines 127--137
-\T1/EBGaramond-OsF/regular/n/10.95 ten, dar-un-ter `par-ty-I-tems`, `in-put-Na-
-me`, `in-pu-tI-tem`, `ti-meEn-ded`, `text-Change`, `bt-n-Pres-sA-mount` und
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+
+
+Overfull \hbox (6.72577pt too wide) in paragraph at lines 109--110
+[][][]\T1/lmtt/m/n/10.95 @keyframes fadeInOutAnimation []\T1/EBGaramond-OsF/reg
+ular/n/10.95 und [][]\T1/lmtt/m/n/10.95 @keyframes slide[]\T1/EBGaramond-OsF/re
+gular/n/10.95 : Die-se sind CSS-Animationen,
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+
 [42]
-Underfull \hbox (badness 10000) in paragraph at lines 139--148
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--159
+Overfull \hbox (9.71295pt too wide) in paragraph at lines 123--124
+[][][]\T1/lmtt/m/n/10.95 row-item[]\T1/EBGaramond-OsF/regular/n/10.95 : De-fi-n
+iert das Lay-out je-des Ele-ments in ei-ner Zei-le. Je-des Ele-ment wird als Fl
+ex-Container
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+
+
+Overfull \hbox (3.60175pt too wide) in paragraph at lines 130--132
+\T1/EBGaramond-OsF/regular/n/10.95 Die Kom-po-nen-te [][]\T1/lmtt/m/n/10.95 Emo
+ticonThree []\T1/EBGaramond-OsF/regular/n/10.95 ist ein funk-tio-na-ler React-K
+omponente. Sie be-nutzt den [][]\T1/lmtt/m/n/10.95 useState[]\T1/EBGaramond-OsF
+/regular/n/10.95 -
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--132
+
+
+Overfull \hbox (53.34851pt too wide) in paragraph at lines 133--134
+\T1/EBGaramond-OsF/regular/n/10.95 ver-wal-ten, dar-un-ter [][]\T1/lmtt/m/n/10.
+95 partyItems[]\T1/EBGaramond-OsF/regular/n/10.95 , [][]\T1/lmtt/m/n/10.95 inpu
+tName[]\T1/EBGaramond-OsF/regular/n/10.95 , [][]\T1/lmtt/m/n/10.95 inputItem[]\
+T1/EBGaramond-OsF/regular/n/10.95 , [][]\T1/lmtt/m/n/10.95 timeEnded[]\T1/EBGar
+amond-OsF/regular/n/10.95 , [][]\T1/lmtt/m/n/10.95 textChange[]\T1/EBGaramond-O
+sF/regular/n/10.95 , [][]\T1/lmtt/m/n/10.95 btnPressAmount
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+
+
+Overfull \hbox (0.89833pt too wide) in paragraph at lines 134--135
+[]\T1/EBGaramond-OsF/regular/n/10.95 **Recoil-Zustandsverwaltung:** Die Kom-po-
+nen-te ver-wen-det Re-coil zur Zu-stands-ver-wal-tung. Re-
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
 [43]
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
+
+
+Overfull \hbox (0.1092pt too wide) in paragraph at lines 137--138
+[]\T1/EBGaramond-OsF/regular/n/10.95 **Button pres-sed:** Die Funk-ti-on [][]\T
+1/lmtt/m/n/10.95 buttonPressed []\T1/EBGaramond-OsF/regular/n/10.95 ent-hält ei
+-ne Lo-gik, die aus-ge-führt wird, wenn
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
+
+
+Overfull \hbox (16.1526pt too wide) in paragraph at lines 148--149
+[]\T1/EBGaramond-OsF/regular/n/10.95 Zeile 5-8: De-fi-ni-ti-on der [][]\T1/lmtt
+/m/n/10.95 TableProps[]\T1/EBGaramond-OsF/regular/n/10.95 -Typdefinition. Sie e
+nt-hält ein Ar-ray von [][]\T1/lmtt/m/n/10.95 PartyItem[]\T1/EBGaramond-OsF/reg
+ular/n/10.95 -Objekten
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
+
+[44]
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+
+
+Overfull \hbox (11.71353pt too wide) in paragraph at lines 150--151
+[]\T1/EBGaramond-OsF/regular/n/10.95 Zeile 12: Be-ginn der render-Methode. Es g
+ibt einen div-Container mit der Klas-se [][]\T1/lmtt/m/n/10.95 table-container
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
+
+
+Overfull \hbox (8.07053pt too wide) in paragraph at lines 151--152
+[]\T1/EBGaramond-OsF/regular/n/10.95 Zeile 13-16: In-ner-halb des [][]\T1/lmtt/
+m/n/10.95 table-container []\T1/EBGaramond-OsF/regular/n/10.95 gibt es ei-ne Ko
+pf-zei-le mit zwei [][]\T1/lmtt/m/n/10.95 row-item[]\T1/EBGaramond-OsF/regular/
+n/10.95 -Elementen
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+
+
+Overfull \hbox (13.63957pt too wide) in paragraph at lines 152--153
+[]\T1/EBGaramond-OsF/regular/n/10.95 Zeile 17-22: Für je-des [][]\T1/lmtt/m/n/1
+0.95 item []\T1/EBGaramond-OsF/regular/n/10.95 im [][]\T1/lmtt/m/n/10.95 items[
+]\T1/EBGaramond-OsF/regular/n/10.95 -Array wird ei-ne Zei-le er-stellt. Je-de Z
+ei-le ent-hält zwei [][]\T1/lmtt/m/n/10.95 row-item[]\T1/EBGaramond-OsF/regular
+/n/10.95 -
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 160--161
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 162--163
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 163--164
@@ -834,7 +1010,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 163--164
 
 Underfull \hbox (badness 10000) in paragraph at lines 164--165
 
-) (./99_Projektabschnitte.tex [44])
+
+Overfull \hbox (16.49983pt too wide) in paragraph at lines 165--166
+\T1/EBGaramond-OsF/regular/n/10.95 gen und gibt ein [][]\T1/lmtt/m/n/10.95 Reac
+tElement []\T1/EBGaramond-OsF/regular/n/10.95 zu-rück. Die-se Funk-ti-on ist fü
+r das Ren-dern der Home-Komponente
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
+
+[45]
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+
+) (./99_Projektabschnitte.tex [46])
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 135.
@@ -845,7 +1044,6 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.II}) has
                    \relax 
 l.138 \addcontentsline
                       {toc}{section}{\listtablename} [2]
-(/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmtt.fd)
 Overfull \hbox (13.20367pt too wide) in paragraph at lines 147--147
 []\T1/EBGaramond-OsF/regular/n/10.95 T. van Gorp, \T1/EBGaramond-OsF/regular/it
 /10.95 Emo-tio-nal de-sign with A.C.T. - part 1\T1/EBGaramond-OsF/regular/n/10.
@@ -868,6 +1066,6 @@ xmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2021/texmf-dist/fonts
 t/fonts/type1/public/ebgaramond/EBGaramond-Italic.pfb></usr/local/texlive/2021/
 texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Regular.pfb></usr/local/tex
 live/2021/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on dokumentation.pdf (52 pages, 7465467 bytes).
+Output written on dokumentation.pdf (54 pages, 7470987 bytes).
 SyncTeX written on dokumentation.synctex.gz.
 Transcript written on dokumentation.log.
