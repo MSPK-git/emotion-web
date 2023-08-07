@@ -13,8 +13,8 @@ WARN - legacy month field 'August' in entry 'dom_bsp' is not an integer - this w
 WARN - legacy month field 'August' in entry 'unt_bsp' is not an integer - this will probably not sort properly.
 WARN - legacy month field 'May' in entry 'Schubert2016' is not an integer - this will probably not sort properly.
 WARN - I didn't find a database entry for 'elliot2004' (section 0)
-INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
 INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
 INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'de-DE'
 INFO - No sort tailoring available for locale 'de-DE'
 INFO - Writing 'dokumentation.bbl' with encoding 'UTF-8'
@@ -752,6 +752,9 @@ l.176
 [34 <./bilder/angst1.png> <./bilder/angst2.png>]) [35]
 (./08_Zusammenfassung.tex
 Kapitel 8.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
+
 ) [36] (./09_Technische_Umsetzung.tex
 Kapitel 9.
 
@@ -1052,6 +1055,6 @@ ts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public
 /lm/lmtt10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhv
 b8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb
 ></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on dokumentation.pdf (57 pages, 7191094 bytes).
+Output written on dokumentation.pdf (57 pages, 7192166 bytes).
 SyncTeX written on dokumentation.synctex.gz.
 Transcript written on dokumentation.log.
