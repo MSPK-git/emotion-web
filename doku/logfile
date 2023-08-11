@@ -13,17 +13,15 @@ WARN - legacy month field 'December' in entry 'ipadbox' is not an integer - this
 WARN - legacy month field 'August' in entry 'dom_bsp' is not an integer - this will probably not sort properly.
 WARN - legacy month field 'August' in entry 'unt_bsp' is not an integer - this will probably not sort properly.
 WARN - legacy month field 'May' in entry 'Schubert2016' is not an integer - this will probably not sort properly.
-WARN - BibTeX subsystem: /var/folders/7m/kg4nc6tn6bd5k__vqdqc8yyc0000gn/T/biber_tmp_CZ1v/03cb965aa3b3472c2289b9a0b44cc47a_14985.utf8, line 351, warning: 1 characters of junk seen at toplevel
+WARN - BibTeX subsystem: /var/folders/7m/kg4nc6tn6bd5k__vqdqc8yyc0000gn/T/biber_tmp_Tvl6/03cb965aa3b3472c2289b9a0b44cc47a_15639.utf8, line 351, warning: 1 characters of junk seen at toplevel
 WARN - I didn't find a database entry for 'elliot2004' (section 0)
-WARN - I didn't find a database entry for 'Hepper2011' (section 0)
-WARN - I didn't find a database entry for 'Roberson2006' (section 0)
 INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
 INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
 INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'de-DE'
 INFO - No sort tailoring available for locale 'de-DE'
 INFO - Writing 'dokumentation.bbl' with encoding 'UTF-8'
 INFO - Output to dokumentation.bbl
-INFO - WARNINGS: 11
+INFO - WARNINGS: 9
 This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex)
  \write18 enabled.
 entering extended mode
@@ -297,20 +295,6 @@ Package tocbibind Note: Using chapter style headings, unless overridden.
 01.sty
 (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.
 tex)))) (./dokumentation.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Hepper2011
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Roberson2006
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
@@ -871,18 +855,10 @@ er spei-chern. Die Funk-ti-on '[][]\OT1/lmtt/m/n/10.95 setInputName[]\OT1/phv/m
 
 Underfull \hbox (badness 10000) in paragraph at lines 28--34
 
-<<<<<<< HEAD
 [41]
-Overfull \hbox (71.61566pt too wide) in paragraph at lines 37--46
-\OT1/phv/m/n/10.95 Schlie^^Ylich wird die Un-ter-gren-ze des letz-ten Ele-ments
- ei-ner [][]\OT1/lmtt/m/n/10.95 .table-row []\OT1/phv/m/n/10.95 und ei-nes [][]
-\OT1/lmtt/m/n/10.95 .row-sub-container
-=======
-[37]
 Overfull \hbox (31.91559pt too wide) in paragraph at lines 37--46
 [][]\OT1/lmtt/m/n/10.95 .row-sub-container []\OT1/phv/m/n/10.95 ent-fernt, um d
 op-pel-te Gren-zen am En-de zu ver-mei-den. Dies gew[]ahrleistet
->>>>>>> 2f1cd84a099709a5fb1659f040247e0f206a6128
 
 Underfull \hbox (badness 10000) in paragraph at lines 37--46
 
@@ -894,15 +870,7 @@ Overfull \hbox (4.12433pt too wide) in paragraph at lines 59--65
 \OT1/phv/m/n/10.95 us und Box-Sizing. []Ahnlich wird f[]ur die [][]\OT1/lmtt/m/
 n/10.95 input[type="submit"] []\OT1/phv/m/n/10.95 Ele-men-te ei-ne vollst[]andi
 ge
-<<<<<<< HEAD
-
-Overfull \hbox (7.38348pt too wide) in paragraph at lines 59--65
-\OT1/phv/m/n/10.95 Sti-li-sie-rung de-fi-niert, ein-schlie^^Y-lich der Hover-Ef
-fekte, die die Hin-ter-grund-far-be auf [][]\OT1/lmtt/m/n/10.95 #45a049
 [44]
-=======
-[40]
->>>>>>> 2f1cd84a099709a5fb1659f040247e0f206a6128
 Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
 
@@ -1140,10 +1108,6 @@ ts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public
 /lm/lmtt10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhv
 b8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb
 ></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-<<<<<<< HEAD
-Output written on dokumentation.pdf (62 pages, 10023200 bytes).
-=======
-Output written on dokumentation.pdf (58 pages, 7192948 bytes).
->>>>>>> 2f1cd84a099709a5fb1659f040247e0f206a6128
+Output written on dokumentation.pdf (62 pages, 10024198 bytes).
 SyncTeX written on dokumentation.synctex.gz.
 Transcript written on dokumentation.log.
