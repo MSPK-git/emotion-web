@@ -15,10 +15,10 @@ WARN - legacy month field 'August' in entry 'unt_bsp' is not an integer - this w
 WARN - legacy month field 'May' in entry 'Schubert2016' is not an integer - this will probably not sort properly.
 WARN - Entry 'Stangl2023' (lit.bib): Invalid format 'abgerufen am 27. Juli, 2023' of date field 'urldate' - ignoring
 WARN - legacy month field 'July' in entry 'Stangl2023' is not an integer - this will probably not sort properly.
-WARN - BibTeX subsystem: /var/folders/7m/kg4nc6tn6bd5k__vqdqc8yyc0000gn/T/biber_tmp_wC9D/03cb965aa3b3472c2289b9a0b44cc47a_23545.utf8, line 351, warning: 1 characters of junk seen at toplevel
+WARN - BibTeX subsystem: /var/folders/7m/kg4nc6tn6bd5k__vqdqc8yyc0000gn/T/biber_tmp_pHDb/03cb965aa3b3472c2289b9a0b44cc47a_25005.utf8, line 351, warning: 1 characters of junk seen at toplevel
 WARN - I didn't find a database entry for 'elliot2004' (section 0)
-INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
 INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
 INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'de-DE'
 INFO - No sort tailoring available for locale 'de-DE'
 INFO - Writing 'dokumentation.bbl' with encoding 'UTF-8'
@@ -568,10 +568,10 @@ Kapitel 7.
 Overfull \hbox (17.68637pt too wide) in paragraph at lines 4--4
 |\OT1/phv/m/n/24.88 Umsetzung - be-wuss-tes An-spre-chen von
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--13
+Underfull \hbox (badness 10000) in paragraph at lines 11--14
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--24
+Underfull \hbox (badness 10000) in paragraph at lines 15--25
 
 [23]
 
@@ -583,12 +583,12 @@ Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                e.g., setting geometry's option
 (scrlayer-scrpage)                `head=32.99352pt'.
 (scrlayer-scrpage)                I'll also decrease \topmargin on input line 2
-4.
+5.
 
 
 Overfull \vbox (10.99352pt too high) has occurred while \output is active
 [24]
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
 
 ! LaTeX Error: There's no line here to end.
@@ -597,35 +597,10 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.33 
+l.34 
      
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--36
-
 [25]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.44 
-     
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.51 
-     
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-
-[26 <./bilder/contrast-gelassenheit.png> <./bilder/contrast-box.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 35--37
 
 
 ! LaTeX Error: There's no line here to end.
@@ -634,12 +609,9 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.64 
+l.45 
      
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
-
-[27 <./bilder/adobecolor.png>]
+[26]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -647,8 +619,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.73 
+l.52 
      
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+[27 <./bilder/contrast-gelassenheit.png> <./bilder/contrast-box.png>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -656,17 +635,38 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80 
+l.65 
      
-[28 <./bilder/website-gelassen.png>] [29 <./bilder/website-gelassen-hover.png>]
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 
+     
+[28 <./bilder/adobecolor.png>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.81 
+     
+[29 <./bilder/website-gelassen.png> <./bilder/website-gelassen-hover.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
 [30]
 
@@ -676,13 +676,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.104 
+l.105 
       
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
 [31 <./bilder/hintergrund-scott.png>]
 
@@ -692,13 +692,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.117 
+l.118 
       
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
 
 ! LaTeX Error: There's no line here to end.
@@ -707,10 +707,10 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.130 
+l.131 
       
 [32 <./bilder/dropdown-scott.png> <./bilder/auswahl-videos.png>] [33]
-Overfull \hbox (18.69685pt too wide) in paragraph at lines 136--136
+Overfull \hbox (18.69685pt too wide) in paragraph at lines 137--137
 |[]\OT1/phv/m/n/14.4 Webseite - be-wuss-tes Ein-set-zen von ne-ga-ti-ven Emo-ti
 o-nen Stress
 
@@ -720,7 +720,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.147 
+l.148 
       
 
 ! LaTeX Error: There's no line here to end.
@@ -729,14 +729,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.154 
+l.155 
       
 [34 <./bilder/contrast.png>]
-Overfull \hbox (1.28418pt too wide) in paragraph at lines 156--158
+Overfull \hbox (1.28418pt too wide) in paragraph at lines 157--159
 \OT1/phv/m/n/10.95 Um den Nut-zer un-ter Druck zu set-zen und ein Han-deln zu f
 or-cie-ren, wur-den haupts[]achlich
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--158
+Underfull \hbox (badness 10000) in paragraph at lines 157--159
 
 
 ! LaTeX Error: There's no line here to end.
@@ -745,10 +745,10 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.166 
+l.167 
       
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--170
+Underfull \hbox (badness 10000) in paragraph at lines 169--171
 
 
 ! LaTeX Error: There's no line here to end.
@@ -757,7 +757,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.178 
+l.179 
       
 [35 <./bilder/name-bin-dabei.png> <./bilder/schrift-freie-plätze3.png>]
 
@@ -767,7 +767,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.189 
+l.190 
       
 
 ! LaTeX Error: There's no line here to end.
@@ -776,7 +776,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.199 
+l.200 
       
 [36 <./bilder/schrift-freie-plätze1.png> <./bilder/rot-dabei.png>]
 
@@ -786,10 +786,10 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.207 
+l.208 
       
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--211
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
 
 [37 <./bilder/ekelhaft.png> <./bilder/na-endlich.png>]
 
@@ -799,7 +799,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.218 
+l.219 
       
 
 ! LaTeX Error: There's no line here to end.
@@ -808,7 +808,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.225 
+l.226 
       
 [38 <./bilder/angst1.png> <./bilder/angst2.png>]) [39]
 (./09_Technische_Umsetzung.tex
@@ -1122,6 +1122,6 @@ ts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public
 /lm/lmtt10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhv
 b8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb
 ></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on dokumentation.pdf (62 pages, 10024548 bytes).
+Output written on dokumentation.pdf (62 pages, 10024593 bytes).
 SyncTeX written on dokumentation.synctex.gz.
 Transcript written on dokumentation.log.
