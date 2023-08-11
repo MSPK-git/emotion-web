@@ -375,9 +375,6 @@ l.24
 ) [7 <./bilder/russell1.png> <./bilder/russell2.png>] (./04_Verwendung.tex
 Kapitel 4.
 
-Overfull \hbox (0.718pt too wide) in paragraph at lines 4--4
-|\OT1/phv/m/n/24.88 Verwendung vom Emo-tio-nen im De-sign| 
-
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
 [8]
@@ -803,10 +800,9 @@ er spei-chern. Die Funk-ti-on '[][]\OT1/lmtt/m/n/10.95 setInputName[]\OT1/phv/m
 Underfull \hbox (badness 10000) in paragraph at lines 28--34
 
 [37]
-Overfull \hbox (71.61566pt too wide) in paragraph at lines 37--46
-\OT1/phv/m/n/10.95 Schlie^^Ylich wird die Un-ter-gren-ze des letz-ten Ele-ments
- ei-ner [][]\OT1/lmtt/m/n/10.95 .table-row []\OT1/phv/m/n/10.95 und ei-nes [][]
-\OT1/lmtt/m/n/10.95 .row-sub-container
+Overfull \hbox (31.91559pt too wide) in paragraph at lines 37--46
+[][]\OT1/lmtt/m/n/10.95 .row-sub-container []\OT1/phv/m/n/10.95 ent-fernt, um d
+op-pel-te Gren-zen am En-de zu ver-mei-den. Dies gew[]ahrleistet
 
 Underfull \hbox (badness 10000) in paragraph at lines 37--46
 
@@ -818,10 +814,6 @@ Overfull \hbox (4.12433pt too wide) in paragraph at lines 59--65
 \OT1/phv/m/n/10.95 us und Box-Sizing. []Ahnlich wird f[]ur die [][]\OT1/lmtt/m/
 n/10.95 input[type="submit"] []\OT1/phv/m/n/10.95 Ele-men-te ei-ne vollst[]andi
 ge
-
-Overfull \hbox (7.38348pt too wide) in paragraph at lines 59--65
-\OT1/phv/m/n/10.95 Sti-li-sie-rung de-fi-niert, ein-schlie^^Y-lich der Hover-Ef
-fekte, die die Hin-ter-grund-far-be auf [][]\OT1/lmtt/m/n/10.95 #45a049
 [40]
 Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
@@ -1060,6 +1052,6 @@ ts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public
 /lm/lmtt10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhv
 b8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb
 ></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on dokumentation.pdf (58 pages, 7192323 bytes).
+Output written on dokumentation.pdf (58 pages, 7192948 bytes).
 SyncTeX written on dokumentation.synctex.gz.
 Transcript written on dokumentation.log.
