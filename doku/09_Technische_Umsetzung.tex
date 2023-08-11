@@ -42,7 +42,7 @@ Die Tabellenzeilen \verb+.table-row+ und ihre Kindelemente werden ebenfalls als 
 Die \verb+.heading+-Klasse, die für Tabellenkopfzeilen verwendet wird, erhält eine spezifische Hintergrundfarbe und Schriftfarbe, sowie eine Fettdruckformatierung. \\
 Die Elemente \verb+.row-item+ werden so gestaltet, dass sie den zur Verfügung stehenden Platz gleichmäßig aufteilen (durch \verb+flex: 1+). Ein Hover-Effekt ist vorhanden, der den Hintergrund des Elements beim Darüberfahren mit der Maus ändert.\\
 Die Klasse \verb+.row-sub-container+ ermöglicht es, in einer Zeile weitere untergeordnete Zeilen zu haben, die als separate Flexbox-Kolumnen angeordnet sind. Ihre Kindelemente erhalten zusätzlichen Padding und eine Untergrenze.\\
-Schließlich wird die Untergrenze des letzten Elements einer \verb+.table-row+ und eines \verb+.row-sub-container+ entfernt, um doppelte Grenzen am Ende zu vermeiden. Dies gewährleistet eine saubere visuelle Darstellung der Tabelle.\\
+Schließlich wird die Untergrenze des letzten Elements einer \verb+.table-row+ und eines\\ \verb+.row-sub-container+ entfernt, um doppelte Grenzen am Ende zu vermeiden. Dies gewährleistet eine saubere visuelle Darstellung der Tabelle.\\
 
 \subsection{Table.tsx}
 
@@ -57,7 +57,7 @@ Die Rückgabe dieser Funktion ist die vollständige \verb+table-container+-Div, 
 In diesem CSS-Codeblock wird das Styling für verschiedene HTML-Elemente definiert, einschließlich \verb+input+-Elementen, Schaltflächen und speziellen Klassen für spezifische Designanforderungen.\\
 
 Die \verb+.heading-emotion-two+ und \verb+p+ Selektoren legen die Textfarbe auf \verb+antiquewhite+ fest.\\
-Für die \verb+input[type="text"]+ und \verb+select+ Elemente wird das gesamte Box-Modell definiert, einschließlich Breite, Polsterung, Rand, Darstellung, Randfarbe und -stil, Randradius und Box-Sizing. Ähnlich wird für die \verb+input[type="submit"]+ Elemente eine vollständige Stilisierung definiert, einschließlich der Hover-Effekte, die die Hintergrundfarbe auf \verb+#45a049+ ändern, wenn der Benutzer mit der Maus über das Element fährt.\\
+Für die \verb+input[type="text"]+ und \verb+select+ Elemente wird das gesamte Box-Modell definiert, einschließlich Breite, Polsterung, Rand, Darstellung, Randfarbe und -stil, Randradius und Box-Sizing. Ähnlich wird für die \verb+input[type="submit"]+ Elemente eine vollständige Stilisierung definiert, einschließlich der Hover-Effekte, die die Hintergrundfarbe auf\\ \verb+#45a049+ ändern, wenn der Benutzer mit der Maus über das Element fährt.\\
 Die Klasse \verb+.button-one+ bietet Stildefinitionen für eine Schaltfläche, einschließlich Hintergrundfarbe, Rand, Textfarbe, Polsterung, Textausrichtung, Textdekoration, Anzeige und Schriftgröße.\\
 Die Klassen \verb+.outer+ und \verb+.tv+ sind gleich gestaltet und positionieren ihr Inhaltselement relativ zu seinem Elternelement und zentrieren es mithilfe von Flexbox-Layout-Techniken sowohl horizontal als auch vertikal. Für die \verb+.tv+ Klasse wird außerdem eine z-Index-Position festgelegt, um die Stapelreihenfolge von überlappenden Elementen zu steuern, und die Mausereignisse werden auf none gesetzt, um jegliche Interaktion mit diesem Element zu verhindern.\\
 Die \verb+.videoNostalgie+ Klasse stellt spezifische Stildefinitionen für ein Video bereit, einschließlich Randradius, Rand, Breite, Höhe, Skalierung und Rand.\\
