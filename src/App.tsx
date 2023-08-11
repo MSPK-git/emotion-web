@@ -34,7 +34,7 @@ export default function App() {
       ) : (
         <div className="App">
           <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
+           
             <div
               style={{
                 display: "flex",
@@ -44,16 +44,16 @@ export default function App() {
               }}
             >
               <div style={divStyle} onClick={() => setEmotion(Emotion.one)}>
-                Emoticon One
+                Emotion eins
               </div>
               <div style={divStyle} onClick={() => setEmotion(Emotion.two)}>
-                Emoticon Two
+                Emotion zwei
               </div>
               <div style={divStyle} onClick={() => setEmotion(Emotion.three)}>
-                Emoticon Three
+                Emotion drei
               </div>
             </div>
-            <p>Please choose your preferred emotion in the navigation above.</p>
+            <p>Bitte wähle eine der drei Emotionen aus.</p>
           </header>
         </div>
       )}

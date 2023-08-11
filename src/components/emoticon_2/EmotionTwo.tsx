@@ -50,7 +50,7 @@ export default function EmoticonTwo({
   return (
     <div className="bg"
       style={{
-        backgroundImage: `url('/nostalgia.jpg')`,
+        backgroundImage: `url('./nostalgia.jpg')`,
         backgroundRepeat: 'no-repeat',
         padding: "2px",
         width: "100%",
@@ -75,7 +75,7 @@ export default function EmoticonTwo({
         </form>
         {selectedOption.value !== "" && 
           <div className="outer">
-            <img className="tv" id="image" src="/oldTv.png" alt="Image Description" />
+            <img className="tv" id="image" src="./oldTv.png" alt="Image Description" />
             <div className="youtube-video-container" >
               <iframe className="videoNostalgie"
                 width="1080px"
